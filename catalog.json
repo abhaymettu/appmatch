@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-30",
- "count": 1113,
+ "count": 1115,
  "entries": [
   {
    "id": "ph-1000yen-eats",
@@ -1227,8 +1227,7 @@
    "category": "app",
    "tags": [
     "app",
-    "new",
-    "developer-tools"
+    "new"
    ],
    "action": "open https://www.producthunt.com/products/enter-pro",
    "url": "https://www.producthunt.com/products/enter-pro",
@@ -1582,7 +1581,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "developer-tools"
    ],
    "action": "open https://www.producthunt.com/products/gitnexus-akon-labs",
    "url": "https://www.producthunt.com/products/gitnexus-akon-labs",
@@ -3104,6 +3104,20 @@
    "first_seen": "2026-08-30"
   },
   {
+   "id": "ph-qwen3",
+   "name": "Qwen3.8-Flash-Next",
+   "pitch": "The open-weight preview of Qwen4.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/qwen3",
+   "url": "https://www.producthunt.com/products/qwen3",
+   "source": "producthunt",
+   "first_seen": "2026-08-30"
+  },
+  {
    "id": "ph-rabbittravel",
    "name": "RabbitTravel",
    "pitch": "Smart travel planning made effortless.",
@@ -3293,6 +3307,20 @@
    ],
    "action": "open https://www.producthunt.com/products/runmap/launches/runmap",
    "url": "https://www.producthunt.com/products/runmap/launches/runmap",
+   "source": "producthunt",
+   "first_seen": "2026-08-30"
+  },
+  {
+   "id": "ph-savvy-12",
+   "name": "Savvy",
+   "pitch": "An assistant that whispers what to say during a meeting.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/savvy-12",
+   "url": "https://www.producthunt.com/products/savvy-12",
    "source": "producthunt",
    "first_seen": "2026-08-30"
   },
