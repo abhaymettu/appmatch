@@ -191,6 +191,29 @@ fault of the skill. `clean()` replaces em, en, figure and horizontal bar dashes 
 commas as entries are built, and `test_build.py` fails the build if one survives. That
 makes the rule enforceable rather than aspirational.
 
+## Names had their own code path, and it skipped normalisation
+
+Seven catalog names still carried a dash after the em dash rule went in: five em, two en.
+All of them TestFlight, all of them from `og:title`.
+
+`clean()` has stripped dashes since the rule was written, and pitches went through it. But
+the TestFlight name is overwritten later by the `og:title` parse, which returned
+`m.group(1).strip()` straight into the entry and never touched `clean()`. The rule was only
+ever enforced on the paths that happened to call the one function that implemented it.
+
+Two changes. `clean_name()` now handles every title: a **spaced** dash separates a name
+from its tagline, so it becomes `": "`, and any dash left is inside a word, so it becomes a
+hyphen. A name written as `Stash`, spaced em dash, `Visual Bookmarks` now reads
+`Stash: Visual Bookmarks`, while an em dash with no spaces around it, as in the usual
+spelling of `Wi-Fi`, stays a hyphen rather than turning into `Wi: Fi`. Every name path now routes through it: the
+README table, `og:title`, Product Hunt titles, and names read back out of the cache, so the
+seven already sitting in `build/.cache/testflight.json` were fixed without a refetch.
+
+`test_build.py` no longer checks `pitch` alone. It walks every string field of every entry,
+including strings inside `tags`, and names the field and value it found. Run against the
+catalog before the fix it reported all seven and exited 1. A future field will be covered
+the day it is added, which was the point.
+
 ## The catalog only grows on a bad night
 
 Entries dropped by a source this run are carried forward from the previous catalog rather

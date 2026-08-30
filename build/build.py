@@ -169,6 +169,20 @@ def first_sentence(text: str, limit: int = 140) -> str:
     return clean(text, limit)
 
 
+def clean_name(text: str, limit: int = 60) -> str:
+    """Normalise a title. Names skip clean(), which is how em dashes got through.
+
+    A spaced dash in a title separates the app from its tagline, and a colon says
+    the same thing without the banned character. A dash inside a word is just a
+    hyphen.
+    """
+    text = html.unescape(re.sub(r"<[^>]+>", " ", text))
+    text = re.sub(r"\s+[‒–—―]\s+", ": ", text, count=1)
+    text = re.sub(r"[‒–—―]", "-", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:limit].strip(" ,;:-")
+
+
 def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:60]
 
@@ -194,7 +208,7 @@ def parse_join_page(body: str) -> tuple[str | None, str | None, bool]:
     if og:
         m = re.match(r"^Join the (.+?) beta$", html.unescape(og.group(1)).strip(), re.I)
         if m:
-            name = m.group(1).strip()
+            name = clean_name(m.group(1))
 
     status = re.search(r'<div class="beta-status">(.*?)</div>', body, re.S)
     status_text = html.unescape(re.sub(r"<[^>]+>", " ", status.group(1))) if status else ""
@@ -267,7 +281,7 @@ def enrich_testflight(entries: list[dict]) -> dict[str, int]:
         if record.get("status") == "ok":
             entry["pitch"] = record["pitch"]
             if record.get("name"):
-                entry["name"] = record["name"]
+                entry["name"] = clean_name(record["name"])
         elif record.get("status") == "closed":
             entry["status"] = "closed"
         else:
@@ -296,7 +310,7 @@ def source_testflight(use_cache: bool) -> list[dict]:
         m = row.match(line)
         if not m or m.group("status") != "Y":
             continue
-        name = clean(m.group("name"), 60).rstrip(".")
+        name = clean_name(m.group("name"))
         code = m.group("link").rsplit("/", 1)[-1]
         if not name:
             continue
@@ -350,7 +364,7 @@ def source_producthunt(use_cache: bool) -> list[dict]:
             tags = ["app", "new"] + ([cat] if cat else [])
             out.append({
                 "id": ident,
-                "name": clean(title, 60).rstrip("."),
+                "name": clean_name(title),
                 "pitch": pitch,
                 "category": "app",
                 "tags": tags,

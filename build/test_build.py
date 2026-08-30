@@ -27,7 +27,21 @@ CAP_PER_CATEGORY = 500
 ACTION = re.compile(r"^(open https?://\S+|brew install [\w@.+-]+|npm i -g [\w@./-]+)$")
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 # The spec bans em dashes in output, and the agent prints these fields verbatim.
+# Checked across every string in the entry, not just the pitch: names came from a
+# separate code path that skipped normalisation, and five of them slipped through.
 DASHES = re.compile(r"[‒–—―]")
+
+
+def dashed_fields(entry: dict) -> list[str]:
+    """Every field of an entry holding a banned dash, lists included."""
+    bad = []
+    for key, value in entry.items():
+        if isinstance(value, str) and DASHES.search(value):
+            bad.append(key)
+        elif isinstance(value, list):
+            if any(isinstance(x, str) and DASHES.search(x) for x in value):
+                bad.append(f"{key}[]")
+    return bad
 
 failures: list[str] = []
 
@@ -56,7 +70,8 @@ def main() -> int:
         check(bool(ACTION.match(e.get("action", ""))), f"{where}: action not runnable: {e.get('action')!r}")
         check(bool(DATE.match(e.get("first_seen", ""))), f"{where}: bad first_seen {e.get('first_seen')!r}")
         check(str(e.get("url", "")).startswith("http"), f"{where}: url is not http")
-        check(not DASHES.search(e.get("pitch", "")), f"{where}: pitch contains an em dash")
+        for field in dashed_fields(e):
+            failures.append(f"{where}: {field} contains an em dash: {e.get(field.rstrip('[]'))!r}")
         check("\n" not in e.get("pitch", ""), f"{where}: pitch spans more than one line")
 
         ident = e.get("id", "")
@@ -75,6 +90,7 @@ def main() -> int:
             f"placeholder ({share:.0%}), limit is {TF_PLACEHOLDER_MAX_SHARE:.0%}",
         )
 
+    dashed = sum(1 for e in entries if dashed_fields(e))
     counts = {c: sum(1 for e in entries if e.get("category") == c) for c in CATEGORIES}
     for category, n in counts.items():
         check(n >= MIN_PER_CATEGORY, f"category {category} has {n} entries, need at least {MIN_PER_CATEGORY}")
@@ -100,6 +116,7 @@ def main() -> int:
     print(
         f"  testflight pitches still placeholder: {len(placeholders)} of {len(testflight)}"
     )
+    print(f"  entries with an em dash in any string field: {dashed}")
     return 0
 
 
