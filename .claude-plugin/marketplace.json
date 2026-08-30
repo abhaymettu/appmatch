@@ -1,0 +1,23 @@
+{
+  "name": "appmatch",
+  "owner": {
+    "name": "Abhay Mettu",
+    "url": "https://github.com/abhaymettu"
+  },
+  "description": "Personalised discovery for TestFlight betas, new apps and dev tools, matched on your own machine.",
+  "plugins": [
+    {
+      "name": "appmatch",
+      "source": "./",
+      "description": "Reads your machine, confirms a taste profile with you, and hands you five things you would actually want: TestFlight betas, new apps, dev tools.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "discovery",
+        "testflight",
+        "recommendations",
+        "homebrew"
+      ]
+    }
+  ]
+}

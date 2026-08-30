@@ -1,0 +1,42 @@
+name: catalog
+
+on:
+  schedule:
+    # 05:15 UTC nightly. Product Hunt rolls over at 00:00 Pacific.
+    - cron: "15 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build catalog
+        run: python build/build.py --no-cache
+
+      - name: Test catalog
+        run: python build/test_build.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- catalog.json; then
+            echo "catalog unchanged, nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git commit -m "catalog: nightly rebuild $(date -u +%Y-%m-%d)"
+          git push
