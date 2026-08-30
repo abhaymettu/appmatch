@@ -17,6 +17,9 @@ ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog.json"
 
 REQUIRED = ("id", "name", "pitch", "category", "action", "url", "source", "first_seen")
+TF_PLACEHOLDER = "TestFlight beta for "
+# A bad night upstream is tolerable; a broken join page parser is not.
+TF_PLACEHOLDER_MAX_SHARE = 0.30
 CATEGORIES = ("testflight", "app", "devtool")
 MIN_PER_CATEGORY = 100
 CAP_PER_CATEGORY = 500
@@ -62,6 +65,16 @@ def main() -> int:
         else:
             seen[ident] = i
 
+    testflight = [e for e in entries if e.get("category") == "testflight"]
+    placeholders = [e for e in testflight if e.get("pitch", "").startswith(TF_PLACEHOLDER)]
+    if testflight:
+        share = len(placeholders) / len(testflight)
+        check(
+            share <= TF_PLACEHOLDER_MAX_SHARE,
+            f"{len(placeholders)} of {len(testflight)} testflight pitches are still the "
+            f"placeholder ({share:.0%}), limit is {TF_PLACEHOLDER_MAX_SHARE:.0%}",
+        )
+
     counts = {c: sum(1 for e in entries if e.get("category") == c) for c in CATEGORIES}
     for category, n in counts.items():
         check(n >= MIN_PER_CATEGORY, f"category {category} has {n} entries, need at least {MIN_PER_CATEGORY}")
@@ -78,6 +91,15 @@ def main() -> int:
     print(f"PASS  {len(entries)} entries, {len(seen)} unique ids, generated {data.get('generated')}")
     for category, n in counts.items():
         print(f"  {category:<11} {n}")
+        by_source: dict[str, int] = {}
+        for e in entries:
+            if e.get("category") == category:
+                by_source[e["source"]] = by_source.get(e["source"], 0) + 1
+        for source, count in sorted(by_source.items(), key=lambda kv: -kv[1]):
+            print(f"    {source:<24} {count}")
+    print(
+        f"  testflight pitches still placeholder: {len(placeholders)} of {len(testflight)}"
+    )
     return 0
 
 

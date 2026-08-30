@@ -24,6 +24,8 @@ dependency in the project, for a source whose entries overlap heavily with
 
 ## TestFlight pitches are generic, on purpose
 
+**Superseded 2026-08-30, and the reasoning below was wrong. Kept for the trail.**
+
 `awesome-testflight-link` is a table of name, link, status and date. There is no
 description column, so there is nothing to write a real pitch from. Every TestFlight entry
 gets `"TestFlight beta for <platform>, currently accepting testers."` and leans on the app
@@ -31,12 +33,119 @@ name to carry the signal.
 
 The alternative was fetching each of the 317 TestFlight pages to scrape a description.
 That is 317 requests per nightly build against Apple, for one sentence each, and the
-join pages are themselves JS rendered. Not worth it. If a description source shows up
-later, only `source_testflight` changes.
+join pages are themselves JS rendered. Not worth it.
 
-Only rows with status `Y` are kept. The README also lists `F` (full), `N` (not accepting)
-and `D` (deleted): 674 of the 1019 rows. A catalog entry whose action does not work is
-worse than no entry.
+## Correction: the join pages are not JS rendered
+
+The claim above is false and I did not check it before writing it. A plain `curl` with a
+browser User-Agent returns the full description in the HTML:
+
+```
+$ curl -A "Mozilla/5.0 ... Chrome/120.0.0.0 Safari/537.36" \
+    https://testflight.apple.com/join/zjj57upc
+HTTP 200, 40826 bytes
+p.step3[0] -> "Help developers test beta versions of their apps and App Clips using the TestFlight app."
+p.step3[1] -> "Lupora is your personal AI trainer: weekly plans built around your goals, your equipment, and how recovered you are..."
+og:title   -> "Join the Lupora beta"
+```
+
+Two things I had wrong. The page is server rendered, and the request only needs a browser
+User-Agent, which is the one place in this builder that sends one. What misled me is that
+the earlier finding about `departures.to` needing a browser was real, and I generalised it
+to Apple's own pages without testing them.
+
+So the builder now fetches every join page. The parse takes all `p.step3` blocks, drops the
+one containing TestFlight's own boilerplate (`help developers test beta versions`), and
+keeps the longest of what remains. `og:title` matches `Join the <Name> beta` and gives a
+cleaner app name than the README table, so it overrides the name when it parses.
+
+The pitch is the first sentence when there is a clean sentence break between 40 and 140
+characters, otherwise a hard cut at 140. Em dashes are stripped as everywhere else.
+
+The volume objection was the only real part of the old reasoning, and it is handled by
+caching rather than by giving up:
+
+- One fetch per id, ever. `build/.cache/testflight.json` maps id to
+  `{status, checked, pitch, name}`.
+- A nightly run only fetches ids that are absent or marked `retry`.
+- A non-200, or a page with no usable `step3`, records `status: retry`, leaves the
+  placeholder pitch in place, and sets `status: "retry"` on the catalog entry so the next
+  run tries again rather than baking in a failure.
+- Four workers, 0.25 s delay each. The cold run is about 80 seconds for 317 pages; a warm
+  run fetches nothing.
+
+`build/test_build.py` fails the build if more than 30 percent of TestFlight pitches are
+still the placeholder. That is loose enough to survive Apple having a bad night and tight
+enough to catch a parser that has silently stopped matching.
+
+## 29 dead betas were dropped, not retried
+
+Fetching the join pages surfaced something the README does not know. Of 343 rows the
+README marks `Y`, 29 return HTTP 200 with an empty description and this:
+
+```
+og:title    -> "TestFlight - Apple"
+beta-status -> "This beta isn't accepting any new testers right now."
+```
+
+The link outlived the beta. The instruction for a page with no `step3` was to keep the
+placeholder and retry next run, but retrying will never fix these, and shipping them means
+shipping an entry whose one command lands on a page you cannot join. That is the same
+reason status `F`, `N` and `D` rows are filtered out at parse time, so the same rule
+applies here: a third cache status, `closed`, and those entries never reach the catalog.
+
+They are rechecked on every run rather than blacklisted, because the README is upstream
+truth for status and a beta that reopens should come back on its own. That costs 29
+requests a night.
+
+Net effect: 343 rows in, 288 entries out, and **0 of 288** still carry the placeholder
+pitch.
+
+## GitHub search is capped at 200, not 500
+
+Five pages of search results is 500 repos, which is exactly the devtool cap, so on the
+first run it filled the entire category and evicted Homebrew and trending completely. The
+instruction was to fill from search first and then Homebrew, which that technically obeys
+while making two of the three sources dead code.
+
+It was also visibly worse. The tail of the search results is personal repos, benchmark
+papers, GitHub Pages placeholders and repos with no description at all. Compare the two
+runs: the mixed catalog offered `lazygit` and `yazi`, the all-search one led with
+`PNGAL`, `LinearAbiltyCastingThreeJS` and `Aether-0.github.io`.
+
+So two limits, both mine rather than the spec's:
+
+- Repos with a null `description` are skipped. "New on GitHub, owner/repo" is not a pitch,
+  and a repo that cannot say what it does in one line cannot be recommended in four.
+- Search contributes at most 200 entries. That is roughly where star counts stop being
+  meaningful inside a 30 day window, and it leaves the majority of the category to
+  Homebrew's install rank list, which is the highest signal source of the three.
+
+Result: 200 search, 19 trending, 281 Homebrew. Newest still goes first, but not at the
+price of the mix.
+
+## A fresh entry outranks a carried forward one on the same date
+
+The carry forward that stops the catalog shrinking on a bad night had a side effect: an
+entry from a previous build with today's date tied with a fresh one, and ties were broken
+by source priority alone. One lopsided build's composition then survived every later build
+that day. Entries the current run actually fetched now win that tie, so a rebuild can
+correct the mix instead of inheriting it.
+
+## build/.cache/testflight.json is committed
+
+The rest of `build/.cache/` is scratch and stays ignored, but the Action runs from a clean
+checkout. Without a committed cache, every nightly build would refetch all 317 join pages,
+which is both rude and slow for data that essentially never changes. `.gitignore` is
+therefore:
+
+```
+build/.cache/*
+!build/.cache/testflight.json
+```
+
+The Action already commits `catalog.json`; it now picks up cache updates in the same
+commit, so newly discovered betas get their description fetched once and never again.
 
 ## Product Hunt needs several feeds, not one
 
@@ -91,6 +200,29 @@ off the bottom naturally as new ones arrive.
 
 `first_seen` is copied from the previous catalog whenever an id already existed, so an
 entry that has been listed for a month does not look new tonight.
+
+## GitHub search fills the devtool category, trending cannot
+
+Trending yields 19 entries on a good day, which is not a category. The builder now also
+queries the search API:
+
+```
+https://api.github.com/search/repositories
+  ?q=created:>YYYY-MM-DD+stars:>100&sort=stars&order=desc&per_page=100&page=N
+```
+
+Repos created in the last 30 days with more than 100 stars, most starred first, five pages.
+Unauthenticated works and returned 1704 matches on the first run; the search endpoint
+allows 10 requests a minute for anonymous callers, so pages are spaced 7 seconds apart.
+No token, so nothing to leak and nothing for a user to configure.
+
+A repo whose name matches a Homebrew formula gets `brew install <name>` instead of
+`open <html_url>`, because the point of the `action` field is that it is the one command
+worth running, and installing beats reading a README.
+
+The devtool category now fills newest first: GitHub search, then trending, then Homebrew by
+install rank, capped at 500. Ties on `first_seen` are broken by source priority rather than
+alphabetically, which is what makes that ordering actually hold.
 
 ## The builder caches fetches locally
 

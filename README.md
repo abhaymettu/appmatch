@@ -123,9 +123,18 @@ flat list of entries:
 }
 ```
 
-Sources: the `pluwen/awesome-testflight-link` README for TestFlight betas, Product Hunt
-Atom feeds for new apps, GitHub trending and the Homebrew formulae API for dev tools.
-Capped at 500 entries per category. `first_seen` is stable across rebuilds.
+Sources:
+
+| Category | Where it comes from |
+| --- | --- |
+| `testflight` | `pluwen/awesome-testflight-link` for the links, plus each join page for the real description |
+| `app` | Product Hunt Atom feeds, eight categories unioned |
+| `devtool` | GitHub search for repos created in the last 30 days, GitHub trending, and the Homebrew formulae API ranked by install count |
+
+Capped at 500 entries per category, newest first. `first_seen` is stable across rebuilds.
+TestFlight descriptions are fetched once per app and cached in
+`build/.cache/testflight.json`, which is committed so the nightly Action does not refetch
+them.
 
 Build it yourself:
 

@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import http.client
 import json
 import re
 import sys
@@ -19,18 +20,48 @@ import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import date
+from concurrent.futures import ThreadPoolExecutor
+from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog.json"
 CACHE = Path(__file__).resolve().parent / ".cache"
+# Committed, unlike the rest of .cache. The Action starts from a clean checkout and
+# would otherwise refetch all 317 join pages every single night.
+TF_CACHE = CACHE / "testflight.json"
 
 UA = "appmatch-catalog-builder (+https://github.com/abhaymettu/appmatch)"
+# testflight.apple.com serves the description only to something that looks like a
+# browser. This is the one place a real User-Agent is needed.
+BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+)
 CACHE_TTL = 6 * 3600
 PER_CATEGORY_CAP = 500
 CATEGORIES = ("testflight", "app", "devtool")
 TODAY = date.today().isoformat()
+
+TF_WORKERS = 4
+TF_DELAY = 0.25
+TF_PLACEHOLDER = "TestFlight beta for "
+# The first p.step3 on every join page is TestFlight's own boilerplate, not the app.
+TF_BOILERPLATE = "help developers test beta versions"
+# A join link in the README can outlive the beta it points at. The page still
+# returns 200, but says this, and its one command would lead nowhere.
+TF_CLOSED = "isn't accepting any new testers"
+
+GH_SEARCH_PAGES = 5
+# Five pages is 500 repos, which would fill the whole devtool cap on its own and
+# evict Homebrew, the highest signal source in the category. Newest goes first,
+# but not at the price of the mix.
+GH_SEARCH_CAP = 200
+GH_SEARCH_DELAY = 7.0
+GH_SEARCH_WINDOW_DAYS = 30
+
+# Within one first_seen date, this decides who survives the per category cap.
+SOURCE_PRIORITY = {"github-search": 0, "github-trending": 1, "homebrew": 2}
 
 # Product Hunt serves 50 items per feed. Several category feeds overlap only
 # partly, so the union clears the 100 per category bar on a cold build.
@@ -50,6 +81,24 @@ PH_FEEDS = [
 # fetching
 
 
+def get(url: str, browser: bool = False, timeout: int = 60) -> tuple[int, str]:
+    """GET a URL, returning (status, body). Never raises for an HTTP error."""
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": BROWSER_UA if browser else UA,
+            "Accept-Encoding": "identity",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.status, resp.read().decode("utf-8", errors="replace")
+    except urllib.error.HTTPError as exc:
+        return exc.code, ""
+    except (urllib.error.URLError, http.client.HTTPException, TimeoutError, OSError):
+        return 0, ""
+
+
 def fetch(url: str, use_cache: bool = True) -> str:
     """GET a URL as text, cached on disk so reruns are cheap."""
     CACHE.mkdir(exist_ok=True)
@@ -65,12 +114,26 @@ def fetch(url: str, use_cache: bool = True) -> str:
     return body
 
 
-def try_fetch(url: str, use_cache: bool = True) -> str | None:
-    try:
-        return fetch(url, use_cache)
-    except (urllib.error.URLError, TimeoutError, OSError) as exc:
-        print(f"  warn: {url} failed: {exc}", file=sys.stderr)
-        return None
+NETWORK_ERRORS = (
+    urllib.error.URLError,
+    # A chunked response can be cut off mid stream. This is not an OSError, so it
+    # escaped the handler once and took the whole build down with it.
+    http.client.HTTPException,
+    TimeoutError,
+    OSError,
+)
+
+
+def try_fetch(url: str, use_cache: bool = True, attempts: int = 3) -> str | None:
+    for attempt in range(1, attempts + 1):
+        try:
+            return fetch(url, use_cache)
+        except NETWORK_ERRORS as exc:
+            if attempt == attempts:
+                print(f"  warn: {url} failed after {attempts} tries: {exc}", file=sys.stderr)
+                return None
+            time.sleep(2 * attempt)
+    return None
 
 
 # --------------------------------------------------------------------------
@@ -93,12 +156,123 @@ def clean(text: str, limit: int = 110) -> str:
     return text
 
 
+def first_sentence(text: str, limit: int = 140) -> str:
+    """One sentence if there is a clean break early enough, otherwise a hard cut."""
+    text = html.unescape(re.sub(r"<[^>]+>", " ", text))
+    for bad, good in DASHES.items():
+        text = text.replace(bad, good)
+    text = re.sub(r"\s+", " ", text).strip()
+
+    cut = re.search(r"(?<=[.!?])\s", text)
+    if cut and 40 <= cut.start() + 1 <= limit:
+        return text[: cut.start() + 1].strip()
+    return clean(text, limit)
+
+
 def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:60]
 
 
 # --------------------------------------------------------------------------
-# sources
+# testflight
+
+
+def parse_join_page(body: str) -> tuple[str | None, str | None, bool]:
+    """Return (description, name, closed) scraped from a TestFlight join page."""
+    blocks = re.findall(r'<p[^>]*class="[^"]*\bstep3\b[^"]*"[^>]*>(.*?)</p>', body, re.S)
+    best = ""
+    for raw in blocks:
+        text = html.unescape(re.sub(r"<[^>]+>", " ", raw))
+        text = re.sub(r"\s+", " ", text).strip()
+        if TF_BOILERPLATE in text.lower():
+            continue
+        if len(text) > len(best):
+            best = text
+
+    name = None
+    og = re.search(r'<meta[^>]+property="og:title"[^>]+content="([^"]*)"', body)
+    if og:
+        m = re.match(r"^Join the (.+?) beta$", html.unescape(og.group(1)).strip(), re.I)
+        if m:
+            name = m.group(1).strip()
+
+    status = re.search(r'<div class="beta-status">(.*?)</div>', body, re.S)
+    status_text = html.unescape(re.sub(r"<[^>]+>", " ", status.group(1))) if status else ""
+    closed = TF_CLOSED in status_text.lower()
+
+    return (best or None), name, closed
+
+
+def load_tf_cache() -> dict[str, dict]:
+    if not TF_CACHE.exists():
+        return {}
+    try:
+        return json.loads(TF_CACHE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
+def enrich_testflight(entries: list[dict]) -> dict[str, int]:
+    """Replace placeholder pitches with the real description from each join page.
+
+    One fetch per id, ever. The result is cached in a committed file keyed by id,
+    so a nightly run only touches ids it has never seen plus anything marked for
+    retry. Entries that fail keep the placeholder and are marked so the next run
+    tries again.
+    """
+    cache = load_tf_cache()
+    todo = [
+        e for e in entries
+        if cache.get(e["id"], {}).get("status") != "ok"
+    ]
+    stats = {"cached": len(entries) - len(todo), "fetched": 0, "failed": 0, "closed": 0}
+
+    if todo:
+        print(f"  {len(todo)} join pages to fetch, {stats['cached']} already cached")
+
+    def work(entry: dict) -> tuple[str, dict]:
+        time.sleep(TF_DELAY)
+        status, body = get(entry["url"], browser=True, timeout=30)
+        if status != 200 or not body:
+            return entry["id"], {"status": "retry", "checked": TODAY, "http": status}
+        desc, name, closed = parse_join_page(body)
+        if closed:
+            return entry["id"], {"status": "closed", "checked": TODAY, "http": status}
+        if not desc:
+            return entry["id"], {"status": "retry", "checked": TODAY, "http": status}
+        record = {"status": "ok", "checked": TODAY, "pitch": first_sentence(desc)}
+        if name:
+            record["name"] = name
+        return entry["id"], record
+
+    if todo:
+        with ThreadPoolExecutor(max_workers=TF_WORKERS) as pool:
+            for ident, record in pool.map(work, todo):
+                cache[ident] = record
+                if record["status"] == "ok":
+                    stats["fetched"] += 1
+                elif record["status"] == "closed":
+                    stats["closed"] += 1
+                else:
+                    stats["failed"] += 1
+
+        CACHE.mkdir(exist_ok=True)
+        TF_CACHE.write_text(
+            json.dumps(cache, indent=1, ensure_ascii=False, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
+
+    for entry in entries:
+        record = cache.get(entry["id"], {})
+        if record.get("status") == "ok":
+            entry["pitch"] = record["pitch"]
+            if record.get("name"):
+                entry["name"] = record["name"]
+        elif record.get("status") == "closed":
+            entry["status"] = "closed"
+        else:
+            entry["status"] = "retry"
+    return stats
 
 
 def source_testflight(use_cache: bool) -> list[dict]:
@@ -129,7 +303,7 @@ def source_testflight(use_cache: bool) -> list[dict]:
         out.append({
             "id": f"tf-{code}",
             "name": name,
-            "pitch": f"TestFlight beta for {platform}, currently accepting testers.",
+            "pitch": f"{TF_PLACEHOLDER}{platform}, currently accepting testers.",
             "category": "testflight",
             "tags": ["testflight", platform, "beta"],
             "action": f"open {m.group('link')}",
@@ -138,6 +312,10 @@ def source_testflight(use_cache: bool) -> list[dict]:
             "first_seen": TODAY,
         })
     return out
+
+
+# --------------------------------------------------------------------------
+# apps
 
 
 def source_producthunt(use_cache: bool) -> list[dict]:
@@ -184,6 +362,10 @@ def source_producthunt(use_cache: bool) -> list[dict]:
     return out
 
 
+# --------------------------------------------------------------------------
+# devtools
+
+
 def source_github_trending(use_cache: bool) -> list[dict]:
     """GitHub trending, daily, all languages. Scraped HTML, no API token needed."""
     body = try_fetch("https://github.com/trending?since=daily", use_cache)
@@ -217,7 +399,81 @@ def source_github_trending(use_cache: bool) -> list[dict]:
     return out
 
 
-def source_homebrew(use_cache: bool, want: int) -> list[dict]:
+# A repo whose name matches a Homebrew formula is better installed than opened.
+def source_github_search(use_cache: bool, brew_names: set[str]) -> list[dict]:
+    """Repos created in the last 30 days with over 100 stars, most starred first.
+
+    Unauthenticated search allows 10 requests a minute, so pages are spaced out.
+    Trending alone yields 19 entries a day, which does not fill a category.
+    """
+    since = (date.today() - timedelta(days=GH_SEARCH_WINDOW_DAYS)).isoformat()
+    out, seen = [], set()
+
+    for page in range(1, GH_SEARCH_PAGES + 1):
+        url = (
+            "https://api.github.com/search/repositories"
+            f"?q=created:>{since}+stars:>100&sort=stars&order=desc&per_page=100&page={page}"
+        )
+        body = try_fetch(url, use_cache)
+        if body is None:
+            break
+        try:
+            items = json.loads(body).get("items", [])
+        except json.JSONDecodeError as exc:
+            print(f"  warn: github search page {page} did not parse: {exc}", file=sys.stderr)
+            break
+        if not items:
+            break
+
+        for repo in items:
+            full = repo.get("full_name") or ""
+            name = repo.get("name") or ""
+            if not full or full in seen:
+                continue
+            seen.add(full)
+
+            description = (repo.get("description") or "").strip()
+            # "New on GitHub, owner/repo" is not a pitch. A repo that cannot say
+            # what it does in one line cannot be recommended in four.
+            if not description:
+                continue
+
+            lang = repo.get("language") or ""
+            # If Homebrew already ships it, the one command should install it.
+            action = (
+                f"brew install {name}" if name in brew_names
+                else f"open {repo.get('html_url')}"
+            )
+            out.append({
+                "id": f"gh-{slug(full)}",
+                "name": name,
+                "pitch": clean(description, 140),
+                "category": "devtool",
+                "tags": ["github", "new"] + ([slug(lang)] if lang else []),
+                "action": action,
+                "url": repo.get("html_url") or f"https://github.com/{full}",
+                "source": "github-search",
+                "first_seen": TODAY,
+            })
+
+        if page < GH_SEARCH_PAGES:
+            time.sleep(GH_SEARCH_DELAY)
+
+    return out[:GH_SEARCH_CAP]
+
+
+def brew_formulae(use_cache: bool) -> list[dict]:
+    body = try_fetch("https://formulae.brew.sh/api/formula.json", use_cache)
+    if body is None:
+        return []
+    try:
+        return json.loads(body)
+    except json.JSONDecodeError as exc:
+        print(f"  warn: brew formula.json did not parse: {exc}", file=sys.stderr)
+        return []
+
+
+def source_homebrew(use_cache: bool, formulae: list[dict], want: int) -> list[dict]:
     """Homebrew formulae, ranked by 365 day install count.
 
     formula.json carries no per formula date, so "recent" cannot be derived from
@@ -225,13 +481,7 @@ def source_homebrew(use_cache: bool, want: int) -> list[dict]:
     is everything. Popularity is the only defensible ordering for that first
     slice, otherwise the category is alphabetical noise.
     """
-    formulae_body = try_fetch("https://formulae.brew.sh/api/formula.json", use_cache)
-    if formulae_body is None:
-        return []
-    try:
-        formulae = json.loads(formulae_body)
-    except json.JSONDecodeError as exc:
-        print(f"  warn: brew formula.json did not parse: {exc}", file=sys.stderr)
+    if want <= 0 or not formulae:
         return []
 
     rank: dict[str, int] = {}
@@ -285,16 +535,42 @@ def build(use_cache: bool = True) -> dict:
     previous = load_previous()
     print(f"previous catalog: {len(previous)} entries")
 
-    entries: list[dict] = []
     print("fetching testflight ...")
-    entries += source_testflight(use_cache)
+    testflight = source_testflight(use_cache)
+    tf_stats = enrich_testflight(testflight)
+    print(
+        f"  descriptions: {tf_stats['cached']} cached, {tf_stats['fetched']} fetched, "
+        f"{tf_stats['closed']} closed betas dropped, {tf_stats['failed']} will retry"
+    )
+    # An entry whose one command leads to "not accepting testers" is worse than
+    # no entry, which is the same reason status F, N and D rows never get built.
+    testflight = [e for e in testflight if e.get("status") != "closed"]
+    # ... and keep the carry forward below from resurrecting one it dropped.
+    closed_ids = {
+        ident for ident, record in load_tf_cache().items()
+        if record.get("status") == "closed"
+    }
+
     print("fetching product hunt ...")
-    entries += source_producthunt(use_cache)
+    apps = source_producthunt(use_cache)
+
+    print("fetching homebrew ...")
+    formulae = brew_formulae(use_cache)
+    brew_names = {f["name"] for f in formulae}
+
+    print("fetching github search ...")
+    search = source_github_search(use_cache, brew_names)
+    print(f"  {len(search)} repos created in the last {GH_SEARCH_WINDOW_DAYS} days")
+
     print("fetching github trending ...")
     trending = source_github_trending(use_cache)
-    entries += trending
-    print("fetching homebrew ...")
-    entries += source_homebrew(use_cache, want=PER_CATEGORY_CAP - len(trending))
+
+    # devtool fills newest first: github search, then trending, then brew by rank.
+    devtool_seen = {e["id"] for e in search} | {e["id"] for e in trending}
+    room = PER_CATEGORY_CAP - len(devtool_seen)
+    brew = [e for e in source_homebrew(use_cache, formulae, room) if e["id"] not in devtool_seen]
+
+    entries = testflight + apps + search + trending + brew
 
     # Dedupe by id, first writer wins, and carry first_seen forward so an entry
     # that has been in the catalog for a month does not look new tonight.
@@ -305,20 +581,33 @@ def build(use_cache: bool = True) -> dict:
         was = previous.get(entry["id"])
         if was and was.get("first_seen"):
             entry["first_seen"] = was["first_seen"]
+        entry["_fresh"] = 1
         merged[entry["id"]] = entry
 
     # Keep anything the sources dropped this run, so the catalog does not shrink
     # when an upstream page has a bad night.
     for ident, entry in previous.items():
+        if ident in closed_ids:
+            continue
+        entry.setdefault("_fresh", 0)
         merged.setdefault(ident, entry)
 
     kept: list[dict] = []
     for category in CATEGORIES:
         in_cat = [e for e in merged.values() if e.get("category") == category]
-        in_cat.sort(key=lambda e: (e["first_seen"], e["id"]), reverse=True)
+        in_cat.sort(
+            key=lambda e: (
+                e["first_seen"],
+                e.get("_fresh", 0),
+                -SOURCE_PRIORITY.get(e["source"], 9),
+            ),
+            reverse=True,
+        )
         kept += in_cat[:PER_CATEGORY_CAP]
 
     kept.sort(key=lambda e: (e["category"], e["id"]))
+    for entry in kept:
+        entry.pop("_fresh", None)
     return {
         "generated": TODAY,
         "count": len(kept),
@@ -336,8 +625,13 @@ def main() -> int:
 
     print(f"\nwrote {CATALOG.relative_to(ROOT)}  {catalog['count']} entries")
     for category in CATEGORIES:
-        n = sum(1 for e in catalog["entries"] if e["category"] == category)
-        print(f"  {category:<11} {n}")
+        rows = [e for e in catalog["entries"] if e["category"] == category]
+        print(f"  {category:<11} {len(rows)}")
+        by_source: dict[str, int] = {}
+        for e in rows:
+            by_source[e["source"]] = by_source.get(e["source"], 0) + 1
+        for source, n in sorted(by_source.items(), key=lambda kv: -kv[1]):
+            print(f"    {source:<24} {n}")
     return 0
 
 

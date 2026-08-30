@@ -1,4 +1,8 @@
-build/.cache/
+# The fetch cache is scratch, except the TestFlight description cache: the Action
+# runs from a clean checkout and would otherwise refetch every join page nightly.
+build/.cache/*
+!build/.cache/testflight.json
+
 __pycache__/
 *.pyc
 .DS_Store
