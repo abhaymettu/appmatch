@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-08",
- "count": 1441,
+ "generated": "2026-11-09",
+ "count": 1443,
  "entries": [
   {
    "id": "ph-1000yen-eats",
@@ -104,6 +104,20 @@
    "url": "https://www.producthunt.com/products/agent-inbox",
    "source": "producthunt",
    "first_seen": "2026-11-02"
+  },
+  {
+   "id": "ph-agent-powered-geo-by-dageno",
+   "name": "Dageno AI 2.0",
+   "pitch": "See why AI recommends your competitors instead of you.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+   "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-agentmash",
@@ -256,20 +270,6 @@
    "first_seen": "2026-10-30"
   },
   {
-   "id": "ph-alpha-vantage",
-   "name": "Congress Trades",
-   "pitch": "See how Congress members trade, and if copying them pays off.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/alpha-vantage",
-   "url": "https://www.producthunt.com/products/alpha-vantage",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-alphagenome-atlas",
    "name": "AlphaGenome Atlas",
    "pitch": "Google's AI map of every possible human DNA mutation.",
@@ -390,6 +390,20 @@
    "first_seen": "2026-11-02"
   },
   {
+   "id": "ph-appwrite",
+   "name": "MCP1",
+   "pitch": "One URL for every MCP server.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/appwrite",
+   "url": "https://www.producthunt.com/products/appwrite",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-archie-3",
    "name": "Archie",
    "pitch": "Mac Screenshot Manager & Notch Shelf.",
@@ -417,6 +431,20 @@
    "url": "https://www.producthunt.com/products/archivist/launches/archivist-2",
    "source": "producthunt",
    "first_seen": "2026-11-05"
+  },
+  {
+   "id": "ph-arcjet",
+   "name": "Arcjet AI security models",
+   "pitch": "A family of custom-trained security models for coding agents.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/arcjet",
+   "url": "https://www.producthunt.com/products/arcjet",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-arco-4",
@@ -605,7 +633,7 @@
    "tags": [
     "app",
     "new",
-    "productivity"
+    "developer-tools"
    ],
    "action": "open https://www.producthunt.com/products/axel-3",
    "url": "https://www.producthunt.com/products/axel-3",
@@ -758,35 +786,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "ph-bluetooth-snes-controller",
-   "name": "Arcade Controller Pro",
-   "pitch": "A fight controller with no stick and its own screen.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/bluetooth-snes-controller",
-   "url": "https://www.producthunt.com/products/bluetooth-snes-controller",
-   "source": "producthunt",
-   "first_seen": "2026-10-27"
-  },
-  {
-   "id": "ph-boltbar",
-   "name": "Boltbar",
-   "pitch": "Spotlight-style AI chat for your Mac.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "productivity"
-   ],
-   "action": "open https://www.producthunt.com/products/boltbar",
-   "url": "https://www.producthunt.com/products/boltbar",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-bonds-2",
    "name": "bonds",
    "pitch": "AI messenger that builds shared apps inside your group chats.",
@@ -800,21 +799,6 @@
    "url": "https://www.producthunt.com/products/bonds-2/launches/bonds-2",
    "source": "producthunt",
    "first_seen": "2026-11-01"
-  },
-  {
-   "id": "ph-botgauge-2",
-   "name": "BotGauge",
-   "pitch": "The trust layer for your agents.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/botgauge-2",
-   "url": "https://www.producthunt.com/products/botgauge-2",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "ph-brcks",
@@ -891,20 +875,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "ph-bytemail",
-   "name": "bytemail",
-   "pitch": "Native Mac email: every inbox, in your notch, no trackers.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/bytemail",
-   "url": "https://www.producthunt.com/products/bytemail",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-cabinlink",
    "name": "CabinLink",
    "pitch": "Flight map from cabin Wi-Fi.",
@@ -933,6 +903,20 @@
    "url": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
    "source": "producthunt",
    "first_seen": "2026-11-03"
+  },
+  {
+   "id": "ph-calmly-script",
+   "name": "Calmly Script",
+   "pitch": "Beautiful screenwriting software. Pay once, no sign-up.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/calmly-script",
+   "url": "https://www.producthunt.com/products/calmly-script",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-canva-craft",
@@ -971,12 +955,27 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/capnot",
    "url": "https://www.producthunt.com/products/capnot",
    "source": "producthunt",
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "ph-cardboard-3",
+   "name": "Cardboard AI",
+   "pitch": "Best way to edit videos with AI.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/cardboard-3",
+   "url": "https://www.producthunt.com/products/cardboard-3",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-cardpointers",
@@ -1073,7 +1072,7 @@
    "tags": [
     "app",
     "new",
-    "productivity"
+    "developer-tools"
    ],
    "action": "open https://www.producthunt.com/products/chatandbuild",
    "url": "https://www.producthunt.com/products/chatandbuild",
@@ -1219,7 +1218,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/clarifierai-rewrite-text-2",
    "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
@@ -1317,6 +1317,20 @@
    "first_seen": "2026-11-01"
   },
   {
+   "id": "ph-clipspal",
+   "name": "ClipsPal",
+   "pitch": "AI video editor that edits your talking-head videos.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/clipspal",
+   "url": "https://www.producthunt.com/products/clipspal",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-clocknext",
    "name": "Clocknext",
    "pitch": "Pricing and Billing Infrastructure for AI Agents.",
@@ -1406,20 +1420,6 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "ph-coachare",
-   "name": "Coachare",
-   "pitch": "Your potential. Unlocked.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/coachare",
-   "url": "https://www.producthunt.com/products/coachare",
-   "source": "producthunt",
-   "first_seen": "2026-10-27"
-  },
-  {
    "id": "ph-codiclens-local-ai-powerd-mac-launcher",
    "name": "Codiclens",
    "pitch": "Local AI powerd Mac launcher and file finder.",
@@ -1494,21 +1494,6 @@
    "first_seen": "2026-11-03"
   },
   {
-   "id": "ph-contextgem",
-   "name": "ContextGem 1.0",
-   "pitch": "Decision models join LLMs to extract data from documents.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/contextgem",
-   "url": "https://www.producthunt.com/products/contextgem",
-   "source": "producthunt",
-   "first_seen": "2026-10-27"
-  },
-  {
    "id": "ph-contextsbase-backlog-for-coding-agents",
    "name": "ContextsBase - Backlog for Coding Agents",
    "pitch": "From chat prompts to AI backlog Platform.",
@@ -1567,6 +1552,20 @@
    "first_seen": "2026-11-04"
   },
   {
+   "id": "ph-cozyzip",
+   "name": "CozyZip",
+   "pitch": "Zip and unzip without the surprises.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/cozyzip",
+   "url": "https://www.producthunt.com/products/cozyzip",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-crystl-multitasking-terminal",
    "name": "crystl",
    "pitch": "multitasking terminal for AI coding agents, built for macOS.",
@@ -1595,6 +1594,20 @@
    "url": "https://www.producthunt.com/products/cubbypad",
    "source": "producthunt",
    "first_seen": "2026-10-31"
+  },
+  {
+   "id": "ph-cue-voice-keyboard",
+   "name": "Cue",
+   "pitch": "AI meeting notes, prep.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/cue-voice-keyboard",
+   "url": "https://www.producthunt.com/products/cue-voice-keyboard",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-curiouslm",
@@ -1655,6 +1668,20 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "ph-databox",
+   "name": "Databox CLI",
+   "pitch": "Your agentic analytics platform in the terminal.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/databox",
+   "url": "https://www.producthunt.com/products/databox",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-datashake-hub",
    "name": "Datashake MCP",
    "pitch": "Plug review and social data straight into your AI assistant.",
@@ -1712,21 +1739,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "ph-dedica",
-   "name": "Dedica",
-   "pitch": "Check if AI agents can use your website.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/dedica",
-   "url": "https://www.producthunt.com/products/dedica",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-deployed-yet",
    "name": "Deployed Yet?",
    "pitch": "See if your Vercel, Cloudflare and GitHub deploys shipped.",
@@ -1755,6 +1767,21 @@
    "url": "https://www.producthunt.com/products/descent-2/launches/descent-2",
    "source": "producthunt",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "ph-desigma",
+   "name": "desigma",
+   "pitch": "Free Figma alternative made on Rust.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new",
+    "design-tools"
+   ],
+   "action": "open https://www.producthunt.com/products/desigma/launches/desigma",
+   "url": "https://www.producthunt.com/products/desigma/launches/desigma",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-dessn-2",
@@ -1896,7 +1923,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/duly-life-organizer",
    "url": "https://www.producthunt.com/products/duly-life-organizer",
@@ -1999,7 +2027,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/edgebar",
    "url": "https://www.producthunt.com/products/edgebar",
@@ -2035,6 +2064,20 @@
    "url": "https://www.producthunt.com/products/editui/launches/editui",
    "source": "producthunt",
    "first_seen": "2026-10-29"
+  },
+  {
+   "id": "ph-egoist-ai-passport",
+   "name": "Egoist AI Passport",
+   "pitch": "Secure and share your personal data with AI tools.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/egoist-ai-passport",
+   "url": "https://www.producthunt.com/products/egoist-ai-passport",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-embage",
@@ -2308,12 +2351,27 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/fleeep",
    "url": "https://www.producthunt.com/products/fleeep",
    "source": "producthunt",
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "ph-flic-cue",
+   "name": "Flic Cue",
+   "pitch": "The AI Voice Button: hold to talk, shake to undo, open SDKs.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/flic-cue",
+   "url": "https://www.producthunt.com/products/flic-cue",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-flight-viz",
@@ -2465,20 +2523,6 @@
    "first_seen": "2026-11-03"
   },
   {
-   "id": "ph-fraud-blocker",
-   "name": "Fraud Blocker",
-   "pitch": "AI ad fraud protection for Google and Meta ads.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/fraud-blocker",
-   "url": "https://www.producthunt.com/products/fraud-blocker",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-freddy-health",
    "name": "freddy.health",
    "pitch": "talk to your body in Claude, ChatGPT, Muse, or any other AI.",
@@ -2523,21 +2567,6 @@
    "first_seen": "2026-11-02"
   },
   {
-   "id": "ph-fswitcher",
-   "name": "fswitcher",
-   "pitch": "fswitcher replaces Command-Tab on your Mac.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "productivity"
-   ],
-   "action": "open https://www.producthunt.com/products/fswitcher",
-   "url": "https://www.producthunt.com/products/fswitcher",
-   "source": "producthunt",
-   "first_seen": "2026-10-27"
-  },
-  {
    "id": "ph-garmin-cirqa-smart-band",
    "name": "Garmin CIRQA™ Smart Band",
    "pitch": "The screenless health + fitness tracker with no subscription.",
@@ -2568,20 +2597,6 @@
    "first_seen": "2026-10-28"
   },
   {
-   "id": "ph-gemini-1-5-pro",
-   "name": "Genie 4",
-   "pitch": "Turn a prompt into a living world you can steer.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/gemini-1-5-pro",
-   "url": "https://www.producthunt.com/products/gemini-1-5-pro",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-gemini-4-carbon",
    "name": "Gemini 4 Carbon",
    "pitch": "Google's next frontier model.",
@@ -2595,6 +2610,20 @@
    "url": "https://www.producthunt.com/products/gemini-4-carbon",
    "source": "producthunt",
    "first_seen": "2026-10-29"
+  },
+  {
+   "id": "ph-github",
+   "name": "GitHub New PR Overview",
+   "pitch": "See what's blocking a PR before you scroll.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/github",
+   "url": "https://www.producthunt.com/products/github",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-github-copilot-fusion",
@@ -2686,21 +2715,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "ph-google-fitbit-edge-2",
-   "name": "Google Fitbit Edge",
-   "pitch": "Google’s smartest fitness tracker ever with 7-day battery.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "health-fitness"
-   ],
-   "action": "open https://www.producthunt.com/products/google-fit-2/launches/google-fitbit-edge-2",
-   "url": "https://www.producthunt.com/products/google-fit-2/launches/google-fitbit-edge-2",
-   "source": "producthunt",
-   "first_seen": "2026-10-27"
-  },
-  {
    "id": "ph-google-omni-1-2-flash",
    "name": "Google Omni 1.2 Flash",
    "pitch": "Gemini Omni 1.2 Flash: 15s AI video at $0.07 per second.",
@@ -2786,6 +2800,21 @@
    "url": "https://www.producthunt.com/products/hamdori",
    "source": "producthunt",
    "first_seen": "2026-11-01"
+  },
+  {
+   "id": "ph-harnesshive",
+   "name": "HarnessHive",
+   "pitch": "AI-Native, Simple & Collaborative Wire Harness Design.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new",
+    "design-tools"
+   ],
+   "action": "open https://www.producthunt.com/products/harnesshive/launches/harnesshive",
+   "url": "https://www.producthunt.com/products/harnesshive/launches/harnesshive",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-hashference",
@@ -2892,6 +2921,20 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "ph-higgsfield",
+   "name": "Higgsfield Miracle",
+   "pitch": "Edit any part of a video without changing the rest.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/higgsfield",
+   "url": "https://www.producthunt.com/products/higgsfield",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-hira",
    "name": "Hira",
    "pitch": "Your free personal agent for job search.",
@@ -2922,20 +2965,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "ph-hob-3",
-   "name": "Hob",
-   "pitch": "Open-source, on device alternative to Claude and ChatGPT.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/hob-3",
-   "url": "https://www.producthunt.com/products/hob-3",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-holdtalk",
    "name": "HoldTalk",
    "pitch": "Hold fn, speak, and the text appears in any Mac app.",
@@ -2964,6 +2993,20 @@
    "url": "https://www.producthunt.com/products/hookdeck",
    "source": "producthunt",
    "first_seen": "2026-11-03"
+  },
+  {
+   "id": "ph-hounddog-ai-static-code-scanner-2",
+   "name": "ProtoMap",
+   "pitch": "Stop wasting AI tokens rediscovering dependencies.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+   "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-how-it-went",
@@ -3023,6 +3066,20 @@
    "url": "https://www.producthunt.com/products/ideogram",
    "source": "producthunt",
    "first_seen": "2026-11-01"
+  },
+  {
+   "id": "ph-if-you-read-this",
+   "name": "If You Read This",
+   "pitch": "A daily check-in app that works like a dead man's switch.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/if-you-read-this",
+   "url": "https://www.producthunt.com/products/if-you-read-this",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-ifttt",
@@ -3136,7 +3193,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/instagram",
    "url": "https://www.producthunt.com/products/instagram",
@@ -3219,6 +3277,20 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "ph-jotform",
+   "name": "Jotform App for Shopify",
+   "pitch": "Build powerful forms for your Shopify store.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/jotform",
+   "url": "https://www.producthunt.com/products/jotform",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-journey-d1125d22-2ba8-44b6-a25a-0b9ab052c1ef",
    "name": "Journey",
    "pitch": "The loyalty program for travelers with taste.",
@@ -3292,6 +3364,20 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "ph-kikumap",
+   "name": "KIKUmap",
+   "pitch": "A mind map for your Claude and ChatGPT chats.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/kikumap",
+   "url": "https://www.producthunt.com/products/kikumap",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-kilo",
    "name": "Kilo",
    "pitch": "Your agentic fitness coach in iMessage.",
@@ -3351,6 +3437,21 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "ph-kiwi-a8f6558b-2889-41dd-b68d-dd02b67b42a9",
+   "name": "Kiwi",
+   "pitch": "A proactive AI assistant that texts you before you ask.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new",
+    "travel"
+   ],
+   "action": "open https://www.producthunt.com/products/kiwi-7/launches/kiwi-a8f6558b-2889-41dd-b68d-dd02b67b42a9",
+   "url": "https://www.producthunt.com/products/kiwi-7/launches/kiwi-a8f6558b-2889-41dd-b68d-dd02b67b42a9",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-kling-4-0-4",
    "name": "Kling 4.0",
    "pitch": "Fast and affordable AI video for high-frequency creators.",
@@ -3394,6 +3495,21 @@
    "url": "https://www.producthunt.com/products/kloudmate/launches/kloudmate-2-0",
    "source": "producthunt",
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "ph-knock-11",
+   "name": "Knock",
+   "pitch": "Create shortcuts by hitting your mac.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new",
+    "tech"
+   ],
+   "action": "open https://www.producthunt.com/products/knock-7/launches/knock-11",
+   "url": "https://www.producthunt.com/products/knock-7/launches/knock-11",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-knocket-ai",
@@ -3513,35 +3629,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "ph-lfm2",
-   "name": "LFM3 by Liquid AI",
-   "pitch": "Six 2B-class models for phones, laptops and robots.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/lfm2",
-   "url": "https://www.producthunt.com/products/lfm2",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "ph-licenseal",
-   "name": "licenseal",
-   "pitch": "Catch incompatible dependency licenses before release.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/licenseal",
-   "url": "https://www.producthunt.com/products/licenseal",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-lidcommit",
    "name": "LidCommit",
    "pitch": "Auto-commit when you close your laptop lid.",
@@ -3607,7 +3694,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "developer-tools"
    ],
    "action": "open https://www.producthunt.com/products/livereview",
    "url": "https://www.producthunt.com/products/livereview",
@@ -3622,7 +3710,7 @@
    "tags": [
     "app",
     "new",
-    "productivity"
+    "developer-tools"
    ],
    "action": "open https://www.producthunt.com/products/liveshortly",
    "url": "https://www.producthunt.com/products/liveshortly",
@@ -3815,7 +3903,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "developer-tools"
    ],
    "action": "open https://www.producthunt.com/products/make0-brain",
    "url": "https://www.producthunt.com/products/make0-brain",
@@ -4124,7 +4213,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "tech"
    ],
    "action": "open https://www.producthunt.com/products/moatly-2",
    "url": "https://www.producthunt.com/products/moatly-2",
@@ -4177,19 +4267,19 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "ph-mudroom-3",
-   "name": "Mudroom",
-   "pitch": "Run coding agents in a VM, review changes like a PR.",
+   "id": "ph-mozy",
+   "name": "Mozy",
+   "pitch": "App Blocker for Android & iPhone.",
    "category": "app",
    "tags": [
     "app",
     "new",
-    "developer-tools"
+    "health-fitness"
    ],
-   "action": "open https://www.producthunt.com/products/mudroom-3",
-   "url": "https://www.producthunt.com/products/mudroom-3",
+   "action": "open https://www.producthunt.com/products/mozy-walk-to-unlock-apps/launches/mozy",
+   "url": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps/launches/mozy",
    "source": "producthunt",
-   "first_seen": "2026-10-28"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-nana-2",
@@ -4340,6 +4430,20 @@
    "first_seen": "2026-10-30"
   },
   {
+   "id": "ph-north-5",
+   "name": "Nörth",
+   "pitch": "Natural, peer-to-peer collaboration for remote work.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/north-5",
+   "url": "https://www.producthunt.com/products/north-5",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-notch-11",
    "name": "NotchX",
    "pitch": "Turn your MacBook's notch into a hub for music and calls.",
@@ -4413,21 +4517,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "ph-notikeep",
-   "name": "NotiKeep",
-   "pitch": "Notification history for iPhone, on your device.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "productivity"
-   ],
-   "action": "open https://www.producthunt.com/products/notikeep",
-   "url": "https://www.producthunt.com/products/notikeep",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-nvidia",
    "name": "Nemotron 3.5 Transcribe",
    "pitch": "Intelligent Transcription with a Speech LLM.",
@@ -4487,75 +4576,17 @@
    "first_seen": "2026-11-03"
   },
   {
-   "id": "ph-onedeploy",
-   "name": "OneDeploy",
-   "pitch": "Open-source apps on your own server, with no per-seat fees.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/onedeploy",
-   "url": "https://www.producthunt.com/products/onedeploy",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "ph-open-for-sales",
-   "name": "Open For sales",
-   "pitch": "Your next sales campaign is one prompt away.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/open-for-sales",
-   "url": "https://www.producthunt.com/products/open-for-sales",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-openai",
    "name": "ChatGPT Images 2.6",
    "pitch": "Create, edit, and animate images with AI.",
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "tech"
    ],
    "action": "open https://www.producthunt.com/products/openai",
    "url": "https://www.producthunt.com/products/openai",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "ph-openflowkit-2",
-   "name": "OpenFlowKit 2",
-   "pitch": "Free, open-source diagrams you and your agent edit together.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "design-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/openflowkit/launches/openflowkit-2",
-   "url": "https://www.producthunt.com/products/openflowkit/launches/openflowkit-2",
-   "source": "producthunt",
-   "first_seen": "2026-10-27"
-  },
-  {
-   "id": "ph-openllm",
-   "name": "OpenLLM",
-   "pitch": "Take your AI tokens anywhere.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/openllm",
-   "url": "https://www.producthunt.com/products/openllm",
    "source": "producthunt",
    "first_seen": "2026-10-28"
   },
@@ -4620,20 +4651,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "ph-opera",
-   "name": "WebAI by Opera",
-   "pitch": "Let websites use AI running on your computer.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/opera",
-   "url": "https://www.producthunt.com/products/opera",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-opusclip",
    "name": "OpusClip 4.0",
    "pitch": "Turn raw footage into ready-to-publish videos with AI.",
@@ -4646,21 +4663,6 @@
    "url": "https://www.producthunt.com/products/opusclip",
    "source": "producthunt",
    "first_seen": "2026-11-04"
-  },
-  {
-   "id": "ph-orbit-app-blocker",
-   "name": "Orbit",
-   "pitch": "Stop doomscrolling. Earn every app unlock.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "health-fitness"
-   ],
-   "action": "open https://www.producthunt.com/products/orbit-app-blocker",
-   "url": "https://www.producthunt.com/products/orbit-app-blocker",
-   "source": "producthunt",
-   "first_seen": "2026-10-27"
   },
   {
    "id": "ph-orbora",
@@ -4699,7 +4701,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "tech"
    ],
    "action": "open https://www.producthunt.com/products/orgsync-2",
    "url": "https://www.producthunt.com/products/orgsync-2",
@@ -4734,21 +4737,6 @@
    "url": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
    "source": "producthunt",
    "first_seen": "2026-11-04"
-  },
-  {
-   "id": "ph-our-silly-games",
-   "name": "Our Silly Games",
-   "pitch": "Skills to build games with Claude. Free multiplayer hosting.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/our-silly-games",
-   "url": "https://www.producthunt.com/products/our-silly-games",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "ph-outreachguy",
@@ -4786,12 +4774,27 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "health-fitness"
    ],
    "action": "open https://www.producthunt.com/products/pacertrip",
    "url": "https://www.producthunt.com/products/pacertrip",
    "source": "producthunt",
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "ph-panda-video",
+   "name": "Sign Language by Panda Video",
+   "pitch": "Add a sign language interpreter to videos already online.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/panda-video",
+   "url": "https://www.producthunt.com/products/panda-video",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-pass-designer",
@@ -4867,6 +4870,20 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "ph-pawse-ai",
+   "name": "Pawse.ai",
+   "pitch": "Sound engineered for dogs, not humans.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/pawse-ai",
+   "url": "https://www.producthunt.com/products/pawse-ai",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-peji",
    "name": "Peji",
    "pitch": "An AI chat with a real browser you control.",
@@ -4916,7 +4933,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "developer-tools"
    ],
    "action": "open https://www.producthunt.com/products/plainmail",
    "url": "https://www.producthunt.com/products/plainmail",
@@ -5071,6 +5089,20 @@
    "first_seen": "2026-11-03"
   },
   {
+   "id": "ph-producthunt",
+   "name": "Product Hunt MCP",
+   "pitch": "The community you trust in the assistant you use.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/producthunt",
+   "url": "https://www.producthunt.com/products/producthunt",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-pushary",
    "name": "Pushary for Teams",
    "pitch": "See who said yes to your team’s AI agents.",
@@ -5175,21 +5207,6 @@
    "first_seen": "2026-10-29"
   },
   {
-   "id": "ph-ragelayer",
-   "name": "RageLayer",
-   "pitch": "Let visitors smash your website, then sweep it back.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/ragelayer",
-   "url": "https://www.producthunt.com/products/ragelayer",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-rainbrand",
    "name": "Rainbrand",
    "pitch": "The brand layer for agents.",
@@ -5270,7 +5287,7 @@
    "tags": [
     "app",
     "new",
-    "productivity"
+    "design-tools"
    ],
    "action": "open https://www.producthunt.com/products/refern",
    "url": "https://www.producthunt.com/products/refern",
@@ -5502,13 +5519,29 @@
    "first_seen": "2026-11-04"
   },
   {
+   "id": "ph-runmap",
+   "name": "RunMap",
+   "pitch": "Turn your Strava runs into a world map adventure.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new",
+    "travel"
+   ],
+   "action": "open https://www.producthunt.com/products/runmap/launches/runmap",
+   "url": "https://www.producthunt.com/products/runmap/launches/runmap",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-safegrd",
    "name": "SafeGrd",
    "pitch": "Safae database backups that AI can restore but not delete.",
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "developer-tools"
    ],
    "action": "open https://www.producthunt.com/products/safegrd",
    "url": "https://www.producthunt.com/products/safegrd",
@@ -5725,7 +5758,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/sequence-tool",
    "url": "https://www.producthunt.com/products/sequence-tool",
@@ -5866,6 +5900,20 @@
    "url": "https://www.producthunt.com/products/skisso-design-on-the-live-product/launches/skisso",
    "source": "producthunt",
    "first_seen": "2026-10-30"
+  },
+  {
+   "id": "ph-skuttr",
+   "name": "skuttr",
+   "pitch": "Type one sentence, get a Reel from your camera roll.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/skuttr",
+   "url": "https://www.producthunt.com/products/skuttr",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-skyty",
@@ -6096,7 +6144,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/standflow",
    "url": "https://www.producthunt.com/products/standflow",
@@ -6243,7 +6292,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/superlogical",
    "url": "https://www.producthunt.com/products/superlogical",
@@ -6264,6 +6314,21 @@
    "url": "https://www.producthunt.com/products/supplyzpro-the-conversational-erp",
    "source": "producthunt",
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ph-surgepix",
+   "name": "SurgePix",
+   "pitch": "AI visuals. Edit every layer. Agent-callable.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new",
+    "design-tools"
+   ],
+   "action": "open https://www.producthunt.com/products/surgepix/launches/surgepix",
+   "url": "https://www.producthunt.com/products/surgepix/launches/surgepix",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-switchy",
@@ -6381,6 +6446,20 @@
    "url": "https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62",
    "source": "producthunt",
    "first_seen": "2026-11-01"
+  },
+  {
+   "id": "ph-terse-durable-actors",
+   "name": "Terse - Durable Actors",
+   "pitch": "Infrastructure for Multiplayer AI Products.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/terse-durable-actors",
+   "url": "https://www.producthunt.com/products/terse-durable-actors",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-testera-3",
@@ -6515,20 +6594,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "ph-throxy-yc-p25",
-   "name": "throxy",
-   "pitch": "Cold calls in your prospect's language. Pipeline delivered.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/throxy-yc-p25",
-   "url": "https://www.producthunt.com/products/throxy-yc-p25",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-thunderduck-inc",
    "name": "Thunderduck Inc.",
    "pitch": "Modular Data Warehouse for Agentic Data Teams.",
@@ -6629,20 +6694,6 @@
    "url": "https://www.producthunt.com/products/tobira-ai",
    "source": "producthunt",
    "first_seen": "2026-11-06"
-  },
-  {
-   "id": "ph-tonko",
-   "name": "TONKO",
-   "pitch": "Pocket money app that teaches kids about money.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/tonko",
-   "url": "https://www.producthunt.com/products/tonko",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "ph-topmessage",
@@ -6764,36 +6815,6 @@
    "first_seen": "2026-10-30"
   },
   {
-   "id": "ph-trellis-4",
-   "name": "Trellis",
-   "pitch": "More than a terminal: a native macOS workspace for devs.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/trellis-4",
-   "url": "https://www.producthunt.com/products/trellis-4",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "ph-trigger-dev",
-   "name": "Trigger.dev: Webhooks for your AI agents",
-   "pitch": "Run AI agents with Slack, Supabase and 50+ other services.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/trigger-dev",
-   "url": "https://www.producthunt.com/products/trigger-dev",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-trovelo",
    "name": "Trovelo",
    "pitch": "Plan and track your trips privately.",
@@ -6807,20 +6828,6 @@
    "url": "https://www.producthunt.com/products/trovelo-private-trip-planner/launches/trovelo",
    "source": "producthunt",
    "first_seen": "2026-10-30"
-  },
-  {
-   "id": "ph-tulu",
-   "name": "Tulu",
-   "pitch": "Autonomous marketing operations & analytics for SMBs.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new"
-   ],
-   "action": "open https://www.producthunt.com/products/tulu",
-   "url": "https://www.producthunt.com/products/tulu",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "ph-turnstone",
@@ -7074,6 +7081,20 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "ph-vygr",
+   "name": "Voyager",
+   "pitch": "✴️ An agentic file browser to navigate your work context.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/vygr",
+   "url": "https://www.producthunt.com/products/vygr",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "ph-walkable-3",
    "name": "Walkable",
    "pitch": "Safety-first walking navigation to walk the safest routes.",
@@ -7101,6 +7122,20 @@
    "url": "https://www.producthunt.com/products/wanaka-studio",
    "source": "producthunt",
    "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ph-watchflows",
+   "name": "Watchflows",
+   "pitch": "Visual automation for your Mac, with AI built in.",
+   "category": "app",
+   "tags": [
+    "app",
+    "new"
+   ],
+   "action": "open https://www.producthunt.com/products/watchflows",
+   "url": "https://www.producthunt.com/products/watchflows",
+   "source": "producthunt",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "ph-wavefunction",
@@ -7226,7 +7261,8 @@
    "category": "app",
    "tags": [
     "app",
-    "new"
+    "new",
+    "productivity"
    ],
    "action": "open https://www.producthunt.com/products/wonder-dev-view",
    "url": "https://www.producthunt.com/products/wonder-dev-view",
@@ -7262,21 +7298,6 @@
    "url": "https://www.producthunt.com/products/xwiki",
    "source": "producthunt",
    "first_seen": "2026-10-30"
-  },
-  {
-   "id": "ph-yardlet-2",
-   "name": "Yardlet",
-   "pitch": "The Mac app for the coding agents you already use.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/yardlet-2",
-   "url": "https://www.producthunt.com/products/yardlet-2",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "ph-yuzu-sync",
@@ -7324,21 +7345,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "ph-zest-6",
-   "name": "Zest",
-   "pitch": "Hold ⌥Space, flick, and an AI agent does the dev chore.",
-   "category": "app",
-   "tags": [
-    "app",
-    "new",
-    "developer-tools"
-   ],
-   "action": "open https://www.producthunt.com/products/zest-6",
-   "url": "https://www.producthunt.com/products/zest-6",
-   "source": "producthunt",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "ph-zigzag-3",
    "name": "Zigzag Browser",
    "pitch": "The polished, native Mac browser for life after Arc.",
@@ -7353,19 +7359,18 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "ph-zro",
-   "name": "Zro: Uncensored Security Models",
-   "pitch": "Abliterated open models for security work.",
+   "id": "ph-zigzag-browser",
+   "name": "Zigzag Browser",
+   "pitch": "The polished, native Mac browser for life after Arc.",
    "category": "app",
    "tags": [
     "app",
-    "new",
-    "developer-tools"
+    "new"
    ],
-   "action": "open https://www.producthunt.com/products/zro",
-   "url": "https://www.producthunt.com/products/zro",
+   "action": "open https://www.producthunt.com/products/zigzag-browser",
+   "url": "https://www.producthunt.com/products/zigzag-browser",
    "source": "producthunt",
-   "first_seen": "2026-10-28"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-abseil",
@@ -7413,21 +7418,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "brew-alsa-lib",
-   "name": "alsa-lib",
-   "pitch": "Provides audio and MIDI functionality to the Linux operating system.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install alsa-lib",
-   "url": "https://www.alsa-project.org/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-ansible",
    "name": "ansible",
    "pitch": "Automate deployment, configuration, and upgrading.",
@@ -7456,36 +7446,6 @@
    "url": "https://aomedia.googlesource.com/aom",
    "source": "homebrew",
    "first_seen": "2026-11-08"
-  },
-  {
-   "id": "brew-at-spi2-core",
-   "name": "at-spi2-core",
-   "pitch": "Protocol definitions and daemon for D-Bus at-spi.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install at-spi2-core",
-   "url": "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "brew-atuin",
-   "name": "atuin",
-   "pitch": "Improved shell history for zsh, bash, fish and nushell.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install atuin",
-   "url": "https://atuin.sh/",
-   "source": "homebrew",
-   "first_seen": "2026-11-03"
   },
   {
    "id": "brew-autoconf",
@@ -7548,21 +7508,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "brew-awscli",
-   "name": "awscli",
-   "pitch": "Official Amazon AWS command-line interface.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install awscli",
-   "url": "https://aws.amazon.com/cli/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-bash",
    "name": "bash",
    "pitch": "Bourne-Again SHell, a UNIX command interpreter.",
@@ -7576,21 +7521,6 @@
    "url": "https://www.gnu.org/software/bash/",
    "source": "homebrew",
    "first_seen": "2026-11-06"
-  },
-  {
-   "id": "brew-bat",
-   "name": "bat",
-   "pitch": "Clone of cat(1) with syntax highlighting and Git integration.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install bat",
-   "url": "https://github.com/sharkdp/bat",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-berkeley-db-5",
@@ -7638,6 +7568,21 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "brew-brotli",
+   "name": "brotli",
+   "pitch": "Generic-purpose lossless compression algorithm by Google.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install brotli",
+   "url": "https://github.com/google/brotli",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-bubblewrap",
    "name": "bubblewrap",
    "pitch": "Unprivileged sandboxing tool for Linux.",
@@ -7668,19 +7613,34 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "brew-ca-certificates",
-   "name": "ca-certificates",
-   "pitch": "Mozilla CA certificate store.",
+   "id": "brew-c-ares",
+   "name": "c-ares",
+   "pitch": "Asynchronous DNS library.",
    "category": "devtool",
    "tags": [
     "brew",
     "cli",
     "core"
    ],
-   "action": "brew install ca-certificates",
-   "url": "https://curl.se/docs/caextract.html",
+   "action": "brew install c-ares",
+   "url": "https://c-ares.org/",
    "source": "homebrew",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "brew-cairo",
+   "name": "cairo",
+   "pitch": "Vector graphics library with cross-device output support.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install cairo",
+   "url": "https://cairographics.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-ccache",
@@ -7743,21 +7703,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "brew-cmake",
-   "name": "cmake",
-   "pitch": "Cross-platform make.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install cmake",
-   "url": "https://www.cmake.org/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-cocoapods",
    "name": "cocoapods",
    "pitch": "Dependency manager for Cocoa projects.",
@@ -7773,21 +7718,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "brew-colima",
-   "name": "colima",
-   "pitch": "Container runtimes on MacOS (and Linux) with minimal setup.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install colima",
-   "url": "https://colima.run",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-composer",
    "name": "composer",
    "pitch": "Dependency Manager for PHP.",
@@ -7801,6 +7731,21 @@
    "url": "https://getcomposer.org/",
    "source": "homebrew",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "brew-coreutils",
+   "name": "coreutils",
+   "pitch": "GNU File, Shell, and Text utilities.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install coreutils",
+   "url": "https://www.gnu.org/software/coreutils/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-cryptography",
@@ -7846,6 +7791,21 @@
    "url": "https://www.cyrusimap.org/sasl/",
    "source": "homebrew",
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "brew-dav1d",
+   "name": "dav1d",
+   "pitch": "AV1 decoder targeted to be small and fast.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install dav1d",
+   "url": "https://code.videolan.org/videolan/dav1d",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-dbus",
@@ -7938,6 +7898,21 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "brew-expat",
+   "name": "expat",
+   "pitch": "XML 1.0 parser.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install expat",
+   "url": "https://libexpat.github.io/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-fastfetch",
    "name": "fastfetch",
    "pitch": "Like neofetch, but much faster because written mostly in C.",
@@ -7983,21 +7958,6 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "brew-ffmpeg",
-   "name": "ffmpeg",
-   "pitch": "Play, record, convert, and stream select audio and video codecs.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install ffmpeg",
-   "url": "https://ffmpeg.org/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-fish",
    "name": "fish",
    "pitch": "User-friendly command-line shell for UNIX-like operating systems.",
@@ -8028,19 +7988,19 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "brew-flyctl",
-   "name": "flyctl",
-   "pitch": "Command-line tools for fly.io services.",
+   "id": "brew-fmt",
+   "name": "fmt",
+   "pitch": "Open-source formatting library for C++.",
    "category": "devtool",
    "tags": [
     "brew",
     "cli",
     "core"
    ],
-   "action": "brew install flyctl",
-   "url": "https://fly.io",
+   "action": "brew install fmt",
+   "url": "https://fmt.dev/",
    "source": "homebrew",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-folly",
@@ -8058,6 +8018,21 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "brew-fontconfig",
+   "name": "fontconfig",
+   "pitch": "XML-based font configuration API for X Windows.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install fontconfig",
+   "url": "https://wiki.freedesktop.org/www/Software/fontconfig/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-freetds",
    "name": "freetds",
    "pitch": "Libraries to talk to Microsoft SQL Server and Sybase databases.",
@@ -8071,6 +8046,21 @@
    "url": "https://www.freetds.org/",
    "source": "homebrew",
    "first_seen": "2026-11-04"
+  },
+  {
+   "id": "brew-freetype",
+   "name": "freetype",
+   "pitch": "Software library to render fonts.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install freetype",
+   "url": "https://www.freetype.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-frei0r",
@@ -8118,19 +8108,19 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "brew-gd",
-   "name": "gd",
-   "pitch": "Graphics library to dynamically manipulate images.",
+   "id": "brew-gcc",
+   "name": "gcc",
+   "pitch": "GNU compiler collection.",
    "category": "devtool",
    "tags": [
     "brew",
     "cli",
     "core"
    ],
-   "action": "brew install gd",
-   "url": "https://libgd.github.io/",
+   "action": "brew install gcc",
+   "url": "https://gcc.gnu.org/",
    "source": "homebrew",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-gdbm",
@@ -8163,6 +8153,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "brew-gettext",
+   "name": "gettext",
+   "pitch": "GNU internationalization (i18n) and localization (l10n) library.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install gettext",
+   "url": "https://www.gnu.org/software/gettext/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-ggml",
    "name": "ggml",
    "pitch": "Tensor library for machine learning.",
@@ -8178,21 +8183,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "brew-gh",
-   "name": "gh",
-   "pitch": "GitHub command-line tool.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install gh",
-   "url": "https://cli.github.com/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-ghostscript",
    "name": "ghostscript",
    "pitch": "Interpreter for PostScript and PDF.",
@@ -8206,6 +8196,36 @@
    "url": "https://www.ghostscript.com/",
    "source": "homebrew",
    "first_seen": "2026-11-04"
+  },
+  {
+   "id": "brew-giflib",
+   "name": "giflib",
+   "pitch": "Library and utilities for processing GIFs.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install giflib",
+   "url": "https://giflib.sourceforge.net/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "brew-git",
+   "name": "git",
+   "pitch": "Distributed revision control system.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install git",
+   "url": "https://git-scm.com",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-git-lfs",
@@ -8238,34 +8258,19 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "brew-glib",
-   "name": "glib",
-   "pitch": "Core application library for C.",
+   "id": "brew-gmp",
+   "name": "gmp",
+   "pitch": "GNU multiple precision arithmetic library.",
    "category": "devtool",
    "tags": [
     "brew",
     "cli",
     "core"
    ],
-   "action": "brew install glib",
-   "url": "https://docs.gtk.org/glib/",
+   "action": "brew install gmp",
+   "url": "https://gmplib.org/",
    "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "brew-glibc",
-   "name": "glibc",
-   "pitch": "GNU C Library.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install glibc",
-   "url": "https://www.gnu.org/software/libc/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-gnu-tar",
@@ -8281,6 +8286,51 @@
    "url": "https://www.gnu.org/software/tar/",
    "source": "homebrew",
    "first_seen": "2026-11-05"
+  },
+  {
+   "id": "brew-gnupg",
+   "name": "gnupg",
+   "pitch": "GNU Privacy Guard (OpenPGP).",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install gnupg",
+   "url": "https://gnupg.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "brew-gnutls",
+   "name": "gnutls",
+   "pitch": "GNU Transport Layer Security (TLS) Library.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install gnutls",
+   "url": "https://gnutls.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "brew-go",
+   "name": "go",
+   "pitch": "Open source programming language to build simple/reliable/efficient software.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install go",
+   "url": "https://go.dev/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-gobject-introspection",
@@ -8328,21 +8378,6 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "brew-gradle",
-   "name": "gradle",
-   "pitch": "Open-source build automation tool based on the Groovy and Kotlin DSL.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install gradle",
-   "url": "https://www.gradle.org/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-graphite2",
    "name": "graphite2",
    "pitch": "Smart font renderer for non-Roman scripts.",
@@ -8371,21 +8406,6 @@
    "url": "https://graphviz.org/",
    "source": "homebrew",
    "first_seen": "2026-11-07"
-  },
-  {
-   "id": "brew-harfbuzz",
-   "name": "harfbuzz",
-   "pitch": "OpenType text shaping engine.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install harfbuzz",
-   "url": "https://github.com/harfbuzz/harfbuzz",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-hdrhistogram-c",
@@ -8478,6 +8498,21 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "brew-imagemagick",
+   "name": "imagemagick",
+   "pitch": "Tools and libraries to manipulate images in select formats.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install imagemagick",
+   "url": "https://imagemagick.org",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-imath",
    "name": "imath",
    "pitch": "Library of 2D and 3D vector, matrix, and math operations.",
@@ -8521,6 +8556,21 @@
    "url": "https://ece.engr.uvic.ca/~frodo/jasper/",
    "source": "homebrew",
    "first_seen": "2026-11-04"
+  },
+  {
+   "id": "brew-jpeg-turbo",
+   "name": "jpeg-turbo",
+   "pitch": "JPEG image codec that aids compression and decompression.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install jpeg-turbo",
+   "url": "https://www.libjpeg-turbo.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-jpeg-xl",
@@ -8628,21 +8678,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "brew-kubeconform",
-   "name": "kubeconform",
-   "pitch": "FAST Kubernetes manifests validator, with support for Custom Resources!",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install kubeconform",
-   "url": "https://github.com/yannh/kubeconform",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-kubernetes-cli",
    "name": "kubernetes-cli",
    "pitch": "Kubernetes command-line interface.",
@@ -8703,21 +8738,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "brew-lcov",
-   "name": "lcov",
-   "pitch": "Graphical front-end for GCC's coverage testing tool (gcov).",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install lcov",
-   "url": "https://github.com/linux-test-project/lcov",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-leptonica",
    "name": "leptonica",
    "pitch": "Image processing and image analysis library.",
@@ -8746,21 +8766,6 @@
    "url": "https://www.libarchive.org",
    "source": "homebrew",
    "first_seen": "2026-11-08"
-  },
-  {
-   "id": "brew-libass",
-   "name": "libass",
-   "pitch": "Subtitle renderer for the ASS/SSA subtitle format.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install libass",
-   "url": "https://github.com/libass/libass",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-libassuan",
@@ -8913,6 +8918,21 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "brew-libffi",
+   "name": "libffi",
+   "pitch": "Portable Foreign Function Interface library.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libffi",
+   "url": "https://sourceware.org/libffi/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-libgcrypt",
    "name": "libgcrypt",
    "pitch": "Cryptographic library based on the code from GnuPG.",
@@ -8971,21 +8991,6 @@
    "url": "https://www.libde265.org/",
    "source": "homebrew",
    "first_seen": "2026-11-07"
-  },
-  {
-   "id": "brew-libiconv",
-   "name": "libiconv",
-   "pitch": "Conversion library.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install libiconv",
-   "url": "https://www.gnu.org/software/libiconv/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-libidn2",
@@ -9048,6 +9053,51 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "brew-libnghttp2",
+   "name": "libnghttp2",
+   "pitch": "HTTP/2 C Library.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libnghttp2",
+   "url": "https://nghttp2.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "brew-libnghttp3",
+   "name": "libnghttp3",
+   "pitch": "HTTP/3 library written in C.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libnghttp3",
+   "url": "https://nghttp2.org/nghttp3/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "brew-libngtcp2",
+   "name": "libngtcp2",
+   "pitch": "IETF QUIC protocol implementation.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libngtcp2",
+   "url": "https://nghttp2.org/ngtcp2/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-libogg",
    "name": "libogg",
    "pitch": "Ogg Bitstream Library.",
@@ -9076,21 +9126,6 @@
    "url": "https://openmp.llvm.org/",
    "source": "homebrew",
    "first_seen": "2026-11-08"
-  },
-  {
-   "id": "brew-libpng",
-   "name": "libpng",
-   "pitch": "Library for manipulating PNG images.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install libpng",
-   "url": "https://www.libpng.org/pub/png/libpng.html",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-libpq",
@@ -9258,6 +9293,21 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "brew-libtiff",
+   "name": "libtiff",
+   "pitch": "TIFF library and utilities.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libtiff",
+   "url": "https://libtiff.gitlab.io/libtiff/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-libtool",
    "name": "libtool",
    "pitch": "Generic library support script.",
@@ -9273,6 +9323,21 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "brew-libunistring",
+   "name": "libunistring",
+   "pitch": "C string library for manipulating Unicode strings.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libunistring",
+   "url": "https://www.gnu.org/software/libunistring/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-libusb",
    "name": "libusb",
    "pitch": "Library for USB device access.",
@@ -9286,6 +9351,21 @@
    "url": "https://libusb.info/",
    "source": "homebrew",
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "brew-libuv",
+   "name": "libuv",
+   "pitch": "Multi-platform support library with a focus on asynchronous I/O.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libuv",
+   "url": "https://libuv.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-libvmaf",
@@ -9333,6 +9413,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "brew-libx11",
+   "name": "libx11",
+   "pitch": "X.Org: Core X11 protocol client library.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libx11",
+   "url": "https://www.x.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-libxau",
    "name": "libxau",
    "pitch": "X.Org: A Sample Authorization Protocol for X.",
@@ -9346,6 +9441,21 @@
    "url": "https://www.x.org/",
    "source": "homebrew",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "brew-libxcb",
+   "name": "libxcb",
+   "pitch": "X.Org: Interface to the X Window System protocol.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libxcb",
+   "url": "https://www.x.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-libxcrypt",
@@ -9376,6 +9486,21 @@
    "url": "https://www.x.org/",
    "source": "homebrew",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "brew-libxext",
+   "name": "libxext",
+   "pitch": "X.Org: Library for common extensions to the X11 protocol.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install libxext",
+   "url": "https://www.x.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-libxfixes",
@@ -9421,21 +9546,6 @@
    "url": "http://xmlsoft.org/",
    "source": "homebrew",
    "first_seen": "2026-11-07"
-  },
-  {
-   "id": "brew-libxrandr",
-   "name": "libxrandr",
-   "pitch": "X.Org: X Resize, Rotate and Reflection extension library.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install libxrandr",
-   "url": "https://www.x.org/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-libxrender",
@@ -9498,21 +9608,6 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "brew-lima",
-   "name": "lima",
-   "pitch": "Linux virtual machines.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install lima",
-   "url": "https://lima-vm.io/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-linux-headers-6-8",
    "name": "linux-headers@6.8",
    "pitch": "Header files of the Linux kernel.",
@@ -9526,6 +9621,21 @@
    "url": "https://kernel.org/",
    "source": "homebrew",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "brew-little-cms2",
+   "name": "little-cms2",
+   "pitch": "Color management engine supporting ICC profiles.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install little-cms2",
+   "url": "https://www.littlecms.com/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-llama-cpp",
@@ -9556,6 +9666,21 @@
    "url": "https://llhttp.org/",
    "source": "homebrew",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "brew-llvm",
+   "name": "llvm",
+   "pitch": "Next-gen compiler infrastructure.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install llvm",
+   "url": "https://llvm.org/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-lua",
@@ -9603,21 +9728,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "brew-lz4",
-   "name": "lz4",
-   "pitch": "Extremely Fast Compression algorithm.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install lz4",
-   "url": "https://lz4.github.io/lz4/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-lzo",
    "name": "lzo",
    "pitch": "Real-time data compression library.",
@@ -9631,6 +9741,21 @@
    "url": "https://www.oberhumer.com/opensource/lzo/",
    "source": "homebrew",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "brew-m4",
+   "name": "m4",
+   "pitch": "Macro processing language.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install m4",
+   "url": "https://www.gnu.org/software/m4/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-maven",
@@ -9648,21 +9773,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "brew-mbedtls-3",
-   "name": "mbedtls@3",
-   "pitch": "Cryptographic & SSL/TLS library.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install mbedtls@3",
-   "url": "https://www.trustedfirmware.org/projects/mbed-tls/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-merve",
    "name": "merve",
    "pitch": "C++ lexer for extracting named exports from CommonJS modules.",
@@ -9676,21 +9786,6 @@
    "url": "https://github.com/nodejs/merve",
    "source": "homebrew",
    "first_seen": "2026-11-06"
-  },
-  {
-   "id": "brew-meson",
-   "name": "meson",
-   "pitch": "Fast and user friendly build system.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install meson",
-   "url": "https://mesonbuild.com/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-mint",
@@ -9753,6 +9848,21 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "brew-mpdecimal",
+   "name": "mpdecimal",
+   "pitch": "Library for decimal floating point arithmetic.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install mpdecimal",
+   "url": "https://www.bytereef.org/mpdecimal/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-mpfr",
    "name": "mpfr",
    "pitch": "C library for multiple-precision floating-point computations.",
@@ -9811,6 +9921,21 @@
    "url": "https://github.com/nodejs/nbytes",
    "source": "homebrew",
    "first_seen": "2026-11-05"
+  },
+  {
+   "id": "brew-ncurses",
+   "name": "ncurses",
+   "pitch": "Text-based UI library.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install ncurses",
+   "url": "https://invisible-island.net/ncurses/announce.html",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-neovim",
@@ -9886,21 +10011,6 @@
    "url": "https://nmap.org/",
    "source": "homebrew",
    "first_seen": "2026-11-04"
-  },
-  {
-   "id": "brew-node",
-   "name": "node",
-   "pitch": "Open-source, cross-platform JavaScript runtime environment.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install node",
-   "url": "https://nodejs.org/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-node-24",
@@ -10053,6 +10163,21 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "brew-openexr",
+   "name": "openexr",
+   "pitch": "High dynamic-range image file format.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install openexr",
+   "url": "https://www.openexr.com/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-openjdk",
    "name": "openjdk",
    "pitch": "Development kit for the Java programming language.",
@@ -10113,6 +10238,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "brew-openjph",
+   "name": "openjph",
+   "pitch": "Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K).",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install openjph",
+   "url": "https://github.com/aous72/OpenJPH",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-openldap",
    "name": "openldap",
    "pitch": "Open source suite of directory software.",
@@ -10126,21 +10266,6 @@
    "url": "https://www.openldap.org/software/",
    "source": "homebrew",
    "first_seen": "2026-11-07"
-  },
-  {
-   "id": "brew-openssl-3",
-   "name": "openssl@3",
-   "pitch": "Cryptography and SSL/TLS Toolkit.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install openssl@3",
-   "url": "https://openssl-library.org",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-openssl-4",
@@ -10173,6 +10298,21 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "brew-p11-kit",
+   "name": "p11-kit",
+   "pitch": "Library to load and enumerate PKCS#11 modules.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install p11-kit",
+   "url": "https://p11-glue.github.io/p11-glue/p11-kit.html",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-pandoc",
    "name": "pandoc",
    "pitch": "Swiss-army knife of markup format conversion.",
@@ -10188,19 +10328,19 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "brew-pcre2",
-   "name": "pcre2",
-   "pitch": "Perl compatible regular expressions library with a new API.",
+   "id": "brew-pango",
+   "name": "pango",
+   "pitch": "Framework for layout and rendering of i18n text.",
    "category": "devtool",
    "tags": [
     "brew",
     "cli",
     "core"
    ],
-   "action": "brew install pcre2",
-   "url": "https://www.pcre.org/",
+   "action": "brew install pango",
+   "url": "https://www.gtk.org/docs/architecture/pango",
    "source": "homebrew",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-perl",
@@ -10263,19 +10403,19 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "brew-pkgconf",
-   "name": "pkgconf",
-   "pitch": "Package compiler and linker metadata toolkit.",
+   "id": "brew-pixman",
+   "name": "pixman",
+   "pitch": "Low-level library for pixel manipulation.",
    "category": "devtool",
    "tags": [
     "brew",
     "cli",
     "core"
    ],
-   "action": "brew install pkgconf",
-   "url": "https://github.com/pkgconf/pkgconf",
+   "action": "brew install pixman",
+   "url": "https://cairographics.org/",
    "source": "homebrew",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-pnpm",
@@ -10383,6 +10523,21 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "brew-protobuf",
+   "name": "protobuf",
+   "pitch": "Protocol buffers (Google's data interchange format).",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install protobuf",
+   "url": "https://protobuf.dev/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-pycparser",
    "name": "pycparser",
    "pitch": "C parser in Python.",
@@ -10458,8 +10613,8 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "brew-python-3-14",
-   "name": "python@3.14",
+   "id": "brew-python-3-13",
+   "name": "python@3.13",
    "pitch": "Interpreted, interactive, object-oriented programming language.",
    "category": "devtool",
    "tags": [
@@ -10467,25 +10622,25 @@
     "cli",
     "core"
    ],
-   "action": "brew install python@3.14",
+   "action": "brew install python@3.13",
    "url": "https://www.python.org/",
    "source": "homebrew",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
-   "id": "brew-python-setuptools",
-   "name": "python-setuptools",
-   "pitch": "Easily download, build, install, upgrade, and uninstall Python packages.",
+   "id": "brew-python-3-15",
+   "name": "python@3.15",
+   "pitch": "Interpreted, interactive, object-oriented programming language.",
    "category": "devtool",
    "tags": [
     "brew",
     "cli",
     "core"
    ],
-   "action": "brew install python-setuptools",
-   "url": "https://setuptools.pypa.io/",
+   "action": "brew install python@3.15",
+   "url": "https://www.python.org/",
    "source": "homebrew",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-qemu",
@@ -10516,36 +10671,6 @@
    "url": "https://www.qt.io/",
    "source": "homebrew",
    "first_seen": "2026-11-08"
-  },
-  {
-   "id": "brew-rclone",
-   "name": "rclone",
-   "pitch": "Rsync for cloud storage.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install rclone",
-   "url": "https://rclone.org/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "brew-readline",
-   "name": "readline",
-   "pitch": "Library for command-line editing.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install readline",
-   "url": "https://tiswww.case.edu/php/chet/readline/rltop.html",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-redis",
@@ -10683,6 +10808,21 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "brew-simdjson",
+   "name": "simdjson",
+   "pitch": "SIMD-accelerated C++ JSON parser.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install simdjson",
+   "url": "https://simdjson.org",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-simdutf",
    "name": "simdutf",
    "pitch": "Unicode conversion routines, fast.",
@@ -10711,21 +10851,6 @@
    "url": "https://google.github.io/snappy/",
    "source": "homebrew",
    "first_seen": "2026-11-04"
-  },
-  {
-   "id": "brew-sqlite",
-   "name": "sqlite",
-   "pitch": "Command-line interface for SQLite.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install sqlite",
-   "url": "https://sqlite.org/index.html",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-starship",
@@ -10771,21 +10896,6 @@
    "url": "https://github.com/realm/SwiftLint",
    "source": "homebrew",
    "first_seen": "2026-11-06"
-  },
-  {
-   "id": "brew-systemd",
-   "name": "systemd",
-   "pitch": "System and service manager.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install systemd",
-   "url": "https://systemd.io",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "brew-tcl-tk",
@@ -10953,21 +11063,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "brew-uv",
-   "name": "uv",
-   "pitch": "Extremely fast Python package installer and resolver, written in Rust.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install uv",
-   "url": "https://docs.astral.sh/uv/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "brew-uvwasi",
    "name": "uvwasi",
    "pitch": "WASI syscall API built atop libuv.",
@@ -11011,6 +11106,21 @@
    "url": "https://facebook.github.io/watchman/",
    "source": "homebrew",
    "first_seen": "2026-11-04"
+  },
+  {
+   "id": "brew-webp",
+   "name": "webp",
+   "pitch": "Image format providing lossless and lossy compression for web images.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install webp",
+   "url": "https://developers.google.com/speed/webp/",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-wget",
@@ -11103,34 +11213,19 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "brew-xxhash",
-   "name": "xxhash",
-   "pitch": "Extremely fast non-cryptographic hash algorithm.",
+   "id": "brew-xorgproto",
+   "name": "xorgproto",
+   "pitch": "X.Org: Protocol Headers.",
    "category": "devtool",
    "tags": [
     "brew",
     "cli",
     "core"
    ],
-   "action": "brew install xxhash",
-   "url": "https://xxhash.com",
+   "action": "brew install xorgproto",
+   "url": "https://www.x.org/",
    "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "brew-xz",
-   "name": "xz",
-   "pitch": "General-purpose data compression with high compression ratio.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install xz",
-   "url": "https://tukaani.org/xz/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "brew-yq",
@@ -11193,6 +11288,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "brew-zlib-ng-compat",
+   "name": "zlib-ng-compat",
+   "pitch": "Zlib replacement with optimizations for next generation systems.",
+   "category": "devtool",
+   "tags": [
+    "brew",
+    "cli",
+    "core"
+   ],
+   "action": "brew install zlib-ng-compat",
+   "url": "https://github.com/zlib-ng/zlib-ng",
+   "source": "homebrew",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "brew-zoxide",
    "name": "zoxide",
    "pitch": "Shell extension to navigate your filesystem faster.",
@@ -11206,36 +11316,6 @@
    "url": "https://github.com/ajeetdsouza/zoxide",
    "source": "homebrew",
    "first_seen": "2026-11-07"
-  },
-  {
-   "id": "brew-zsh",
-   "name": "zsh",
-   "pitch": "UNIX shell (command interpreter).",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install zsh",
-   "url": "https://www.zsh.org/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "brew-zstd",
-   "name": "zstd",
-   "pitch": "Zstandard is a real-time compression algorithm.",
-   "category": "devtool",
-   "tags": [
-    "brew",
-    "cli",
-    "core"
-   ],
-   "action": "brew install zstd",
-   "url": "https://facebook.github.io/zstd/",
-   "source": "homebrew",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "gh-0xprobabillity-house-control",
@@ -11283,6 +11363,21 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "gh-ahwootech-brutal",
+   "name": "BRUTAL",
+   "pitch": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "c"
+   ],
+   "action": "open https://github.com/ahwootech/BRUTAL",
+   "url": "https://github.com/ahwootech/BRUTAL",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-aicodeking-leanrea",
    "name": "leanrea",
    "pitch": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
@@ -11298,19 +11393,19 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-aicodeking-pandacode",
-   "name": "pandacode",
-   "pitch": "PandaCode: a calm desktop workspace for coding agents.",
+   "id": "gh-ajncsystem-shadowofthecolossus-pc",
+   "name": "ShadowOfTheColossus-PC",
+   "pitch": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
-    "rust"
+    "c"
    ],
-   "action": "open https://github.com/aicodeking/pandacode",
-   "url": "https://github.com/aicodeking/pandacode",
+   "action": "open https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+   "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
    "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-alchaincyf-huashu-motion",
@@ -11328,21 +11423,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-alexgaoth-awesome-reverse-engineered",
-   "name": "awesome-reverse-engineered",
-   "pitch": "Don't reverse engineer it twice. 17,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "python"
-   ],
-   "action": "open https://github.com/alexgaoth/awesome-reverse-engineered",
-   "url": "https://github.com/alexgaoth/awesome-reverse-engineered",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-alterssss-dsh-bili-whale",
    "name": "dsh-bili-whale",
    "pitch": "给 DSH 装一条有日子的鱼：自己按作息刷 B 站、真看懂视频、写两本日记，把值得的 @ 你。.",
@@ -11358,34 +11438,19 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "gh-amosblomqvist-learnharness",
-   "name": "learnharness",
-   "pitch": "Agent harness for learning difficult things.",
+   "id": "gh-anefzaoui-misterdownloadmanager",
+   "name": "misterdownloadmanager",
+   "pitch": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
-    "typescript"
+    "rust"
    ],
-   "action": "open https://github.com/amosblomqvist/learnharness",
-   "url": "https://github.com/amosblomqvist/learnharness",
+   "action": "open https://github.com/anefzaoui/misterdownloadmanager",
+   "url": "https://github.com/anefzaoui/misterdownloadmanager",
    "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "gh-andyhuo520-digital-human-koubo",
-   "name": "digital-human-koubo",
-   "pitch": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components..",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "typescript"
-   ],
-   "action": "open https://github.com/andyhuo520/digital-human-koubo",
-   "url": "https://github.com/andyhuo520/digital-human-koubo",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-angular-angular",
@@ -11431,6 +11496,21 @@
    "url": "https://github.com/anomalyco/rune",
    "source": "github-search",
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "gh-anonnerdfrenzy-survival-llm",
+   "name": "survival-llm",
+   "pitch": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/anonnerdfrenzy/survival-llm",
+   "url": "https://github.com/anonnerdfrenzy/survival-llm",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-ansub-tv-detox",
@@ -11523,6 +11603,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "gh-arjun-ingole-hop",
+   "name": "hop",
+   "pitch": "Install Linux next to Windows without a USB stick.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "powershell"
+   ],
+   "action": "open https://github.com/Arjun-Ingole/hop",
+   "url": "https://github.com/Arjun-Ingole/hop",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-aschmelyun-print-my-profile-pic",
    "name": "print-my-profile-pic",
    "pitch": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer.",
@@ -11582,19 +11677,19 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "gh-bas3line-ascii",
-   "name": "ascii",
-   "pitch": "Animated ascii art for web pages, in TypeScript: React, Next.js, Astro, or one HTML tag.",
+   "id": "gh-beckyglobal-paidtostudyabroad",
+   "name": "PaidToStudyAbroad",
+   "pitch": "高性价比人生指南·海外版：高性价比留学。出国留学奖学金、免学费、政府全奖、带薪读博，德国日本学手艺有人发钱，美加澳奖学金单独成节。不是你花钱去留学，是你拿钱去留学。71 条，只引官方来源。关注作者：微信视频号 Becky在地球村.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
-    "typescript"
+    "html"
    ],
-   "action": "brew install ascii",
-   "url": "https://github.com/bas3line/ascii",
+   "action": "open https://github.com/BeckyGlobal/PaidToStudyAbroad",
+   "url": "https://github.com/BeckyGlobal/PaidToStudyAbroad",
    "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-benjitaylor-skills",
@@ -11612,64 +11707,33 @@
    "first_seen": "2026-11-03"
   },
   {
-   "id": "gh-bookracyfos-bookracy",
-   "name": "bookracy",
-   "pitch": "Free, open-source book search, reader and library.",
+   "id": "gh-caho1-open-claude-ui",
+   "name": "open-claude-ui",
+   "pitch": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
     "typescript"
    ],
-   "action": "open https://github.com/BookracyFOS/bookracy",
-   "url": "https://github.com/BookracyFOS/bookracy",
+   "action": "open https://github.com/Caho1/open-claude-ui",
+   "url": "https://github.com/Caho1/open-claude-ui",
    "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
-   "id": "gh-bryceyuuu-run",
-   "name": "RUN",
-   "pitch": "RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。.",
+   "id": "gh-caldoai-skills",
+   "name": "skills",
+   "pitch": "Caldo's skills.",
    "category": "devtool",
    "tags": [
     "github",
-    "new",
-    "python"
+    "new"
    ],
-   "action": "open https://github.com/BryceYuuu/RUN",
-   "url": "https://github.com/BryceYuuu/RUN",
+   "action": "brew install skills",
+   "url": "https://github.com/caldoai/skills",
    "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "gh-c1overzz-dsh-bili-scroll",
-   "name": "dsh-bili-scroll",
-   "pitch": "DSH 插件：每天替你刷一轮 B站，读字幕挑出值得的、写一份日报，值得的 @ 你.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "javascript"
-   ],
-   "action": "open https://github.com/c1overzz/dsh-bili-scroll",
-   "url": "https://github.com/c1overzz/dsh-bili-scroll",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "gh-caru-ini-stack-diagram",
-   "name": "stack-diagram",
-   "pitch": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "typescript"
-   ],
-   "action": "open https://github.com/caru-ini/stack-diagram",
-   "url": "https://github.com/caru-ini/stack-diagram",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-ccch1mneyyy-dsh-go",
@@ -11700,6 +11764,36 @@
    "url": "https://github.com/chadyi/StudyOnTV",
    "source": "github-search",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "gh-chenglou-handwired",
+   "name": "handwired",
+   "pitch": "Turn your regular JavaScript code into a neural net.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "typescript"
+   ],
+   "action": "open https://github.com/chenglou/handwired",
+   "url": "https://github.com/chenglou/handwired",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-chenwei810-semiconductor-manufacturing-introduction",
+   "name": "Semiconductor_Manufacturing_Introduction",
+   "pitch": "Introduction to Semiconductor Manufacturing.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+   "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-chiefgyk3d-clouds-against-humanity",
@@ -11866,19 +11960,19 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "gh-d4vinci-scrapling",
-   "name": "Scrapling",
-   "pitch": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't.",
+   "id": "gh-d3voz-openjutsu",
+   "name": "openjutsu",
+   "pitch": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3.",
    "category": "devtool",
    "tags": [
     "github",
-    "trending",
-    "python"
+    "new",
+    "typescript"
    ],
-   "action": "open https://github.com/D4Vinci/Scrapling",
-   "url": "https://github.com/D4Vinci/Scrapling",
-   "source": "github-trending",
-   "first_seen": "2026-11-02"
+   "action": "open https://github.com/D3voz/openjutsu",
+   "url": "https://github.com/D3voz/openjutsu",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-datalab-to-indra",
@@ -11894,6 +11988,21 @@
    "url": "https://github.com/datalab-to/indra",
    "source": "github-search",
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "gh-daveebbelaar-bama",
+   "name": "bama",
+   "pitch": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "swift"
+   ],
+   "action": "open https://github.com/daveebbelaar/bama",
+   "url": "https://github.com/daveebbelaar/bama",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-deepfounder-ai-desigma",
@@ -11956,21 +12065,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-deepseek-ai-dsh-superagent-prototype",
-   "name": "dsh-superagent-prototype",
-   "pitch": "Towards a More Autonomous Agent System.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "typescript"
-   ],
-   "action": "open https://github.com/deepseek-ai/dsh-superagent-prototype",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "gh-denissergeevitch-ex-ussr-kinship-research",
    "name": "ex-ussr-kinship-research",
    "pitch": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across.",
@@ -11986,21 +12080,6 @@
    "first_seen": "2026-11-03"
   },
   {
-   "id": "gh-designfuchen-word-atlas",
-   "name": "word-atlas",
-   "pitch": "词光 · Word Atlas , Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "typescript"
-   ],
-   "action": "open https://github.com/designfuchen/word-atlas",
-   "url": "https://github.com/designfuchen/word-atlas",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "gh-dipa-studio-ios-sweet",
    "name": "ios-sweet",
    "pitch": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150).",
@@ -12014,6 +12093,36 @@
    "url": "https://github.com/dipa-studio/ios-sweet",
    "source": "github-search",
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "gh-diygod-pinky",
+   "name": "pinky",
+   "pitch": "Let AI agents use your phone, with you in the loop.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "go"
+   ],
+   "action": "open https://github.com/DIYgod/pinky",
+   "url": "https://github.com/DIYgod/pinky",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-domsvoboda-nexus-launcher",
+   "name": "nexus-launcher",
+   "pitch": "Open-source Xbox-inspired desktop launcher for Microsoft Store games on Linux.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "typescript"
+   ],
+   "action": "open https://github.com/domsvoboda/nexus-launcher",
+   "url": "https://github.com/domsvoboda/nexus-launcher",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-domsvoboda-xodus-nexus",
@@ -12061,6 +12170,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "gh-dunhkpcc-claude-guardian",
+   "name": "Claude-Guardian",
+   "pitch": "Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/DUNHKpcc/Claude-Guardian",
+   "url": "https://github.com/DUNHKpcc/Claude-Guardian",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-eagle-hq-eagle-4",
    "name": "EAGLE-4",
    "pitch": "Official Inference Code of EAGLE-4.",
@@ -12074,6 +12198,21 @@
    "url": "https://github.com/eagle-hq/EAGLE-4",
    "source": "github-search",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "gh-ebony-vinyl-eac-design-world",
+   "name": "EAC-design-world",
+   "pitch": "DeepSeek Harness 本地视频制作与设计插件：多轨剪辑、模板与设计体系、原生预览画布和真实文件导出.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "javascript"
+   ],
+   "action": "open https://github.com/Ebony-Vinyl/EAC-design-world",
+   "url": "https://github.com/Ebony-Vinyl/EAC-design-world",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-eglantine-community-eglantine",
@@ -12091,19 +12230,19 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "gh-elvarofficial-teardown",
-   "name": "teardown",
-   "pitch": "A Claude Code skill that turns any machine into a 3D simulator you can take apart.",
+   "id": "gh-egoist-mygo-music",
+   "name": "mygo-music",
+   "pitch": "A native music player you extend with plugins.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
-    "javascript"
+    "go"
    ],
-   "action": "open https://github.com/elvarofficial/teardown",
-   "url": "https://github.com/elvarofficial/teardown",
+   "action": "open https://github.com/egoist/mygo-music",
+   "url": "https://github.com/egoist/mygo-music",
    "source": "github-search",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-ely-open-source-elyoffice",
@@ -12134,21 +12273,6 @@
    "url": "https://github.com/emanuele-em/kanzo",
    "source": "github-search",
    "first_seen": "2026-11-04"
-  },
-  {
-   "id": "gh-enesozturk-dimensional-drawing",
-   "name": "dimensional-drawing",
-   "pitch": "Create Apple style dimensional drawings of UI components.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "html"
-   ],
-   "action": "open https://github.com/enesozturk/dimensional-drawing",
-   "url": "https://github.com/enesozturk/dimensional-drawing",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
   },
   {
    "id": "gh-eness-php2shell-cve-2026-109618-cve-2026-109619-poc",
@@ -12211,21 +12335,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "gh-floci-io-floci",
-   "name": "floci",
-   "pitch": "Light, fluffy, and always free - The AWS Local Emulator alternative.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "java"
-   ],
-   "action": "open https://github.com/floci-io/floci",
-   "url": "https://github.com/floci-io/floci",
-   "source": "github-trending",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-flybrainlabs-miner",
    "name": "miner",
    "pitch": "flybrainlabs native and WebAssembly simulation engines and browser mining.",
@@ -12254,6 +12363,21 @@
    "url": "https://github.com/flybrainlabs/node",
    "source": "github-search",
    "first_seen": "2026-11-08"
+  },
+  {
+   "id": "gh-garrytan-gbrain",
+   "name": "gbrain",
+   "pitch": "Garry's Opinionated OpenClaw/Hermes Agent Brain.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "trending",
+    "typescript"
+   ],
+   "action": "open https://github.com/garrytan/gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "source": "github-trending",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-garrytan-gstack",
@@ -12361,21 +12485,6 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "gh-hanzohanzhe-grandet",
-   "name": "Grandet",
-   "pitch": "Find the cheapest API for any model and connect it from your AI agent: Grandet Skill and an anonymous MCP server, backed by listed prices.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "javascript"
-   ],
-   "action": "open https://github.com/hanzohanzhe/Grandet",
-   "url": "https://github.com/hanzohanzhe/Grandet",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-harry0703-moneyprinterturbo",
    "name": "MoneyPrinterTurbo",
    "pitch": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI.",
@@ -12406,21 +12515,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "gh-haydenschmitty-floorplan",
-   "name": "floorplan",
-   "pitch": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "javascript"
-   ],
-   "action": "open https://github.com/haydenschmitty/floorplan",
-   "url": "https://github.com/haydenschmitty/floorplan",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "gh-hazyresearch-ncm",
    "name": "ncm",
    "pitch": "NCM: Next Concept Modeling.",
@@ -12434,21 +12528,6 @@
    "url": "https://github.com/HazyResearch/ncm",
    "source": "github-search",
    "first_seen": "2026-11-08"
-  },
-  {
-   "id": "gh-helixdb-helix-foundry",
-   "name": "helix-foundry",
-   "pitch": "Connect your company's data, let an agent draft an ontology over it, and load it into HelixDB as one graph you can explore and ask.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "go"
-   ],
-   "action": "open https://github.com/HelixDB/helix-foundry",
-   "url": "https://github.com/HelixDB/helix-foundry",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
   },
   {
    "id": "gh-heqiangdiao-wq-ai-cross-border-ecommerce-agent-toolkit",
@@ -12466,19 +12545,34 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "gh-heychengc-vibe-knowledge-film",
-   "name": "vibe-knowledge-film",
-   "pitch": "抖音爆款Vibe知识大赏知识短片skill，深度拆解爆款视频，复刻画风，导演分镜表，自动配音效，一键出片.",
+   "id": "gh-herdrdev-herdr-app",
+   "name": "herdr-app",
+   "pitch": "herdr desktop app.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "rust"
+   ],
+   "action": "open https://github.com/herdrdev/herdr-app",
+   "url": "https://github.com/herdrdev/herdr-app",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-heydamir-unslop",
+   "name": "unslop",
+   "pitch": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
     "javascript"
    ],
-   "action": "open https://github.com/HeyChengC/vibe-knowledge-film",
-   "url": "https://github.com/HeyChengC/vibe-knowledge-film",
+   "action": "open https://github.com/heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
    "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-heyputer-everything",
@@ -12511,19 +12605,19 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-hruiccc-ruic-poseatlas",
-   "name": "RuiC-PoseAtlas",
-   "pitch": "RuiC-PoseAtlas｜姿态 + 衣装双图鉴：288 组人体姿态 × 5 视角 × 1,439 张人台线稿，加 1,407 套无人物衣装 × 8 分类 × 86 个三语标签。中/英/日切换、搜索筛选、键盘浏览、原图下载，纯静态零依赖。.",
+   "id": "gh-homeassistant-ai-ha-mcp",
+   "name": "ha-mcp",
+   "pitch": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
    "category": "devtool",
    "tags": [
     "github",
-    "new",
-    "javascript"
+    "trending",
+    "python"
    ],
-   "action": "open https://github.com/HRuiCcc/RuiC-PoseAtlas",
-   "url": "https://github.com/HRuiCcc/RuiC-PoseAtlas",
-   "source": "github-search",
-   "first_seen": "2026-11-02"
+   "action": "open https://github.com/homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "source": "github-trending",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-huaxialucaicaizi-ai-startup-skills",
@@ -12586,6 +12680,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "gh-iainkay-ram-altman",
+   "name": "ram-altman",
+   "pitch": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "shell"
+   ],
+   "action": "open https://github.com/IainKay/ram-altman",
+   "url": "https://github.com/IainKay/ram-altman",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-ikow-php2shell-poc",
    "name": "php2shell-poc",
    "pitch": "CVE-2026-109618/109619 , 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit.",
@@ -12599,21 +12708,6 @@
    "url": "https://github.com/ikow/php2shell-poc",
    "source": "github-search",
    "first_seen": "2026-11-07"
-  },
-  {
-   "id": "gh-indexable-inc-blaze",
-   "name": "blaze",
-   "pitch": "Incremental rust builds up to 92x faster than cargo/rustc.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "rust"
-   ],
-   "action": "brew install blaze",
-   "url": "https://github.com/indexable-inc/blaze",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
   },
   {
    "id": "gh-interplains-zero-breach",
@@ -12691,19 +12785,48 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "gh-jakeschincariol-trader-skill",
-   "name": "trader-skill",
-   "pitch": "11 Claude skills that copy the investors you trust, watch the news and Congress, size every trade to your budget, and never place an order.",
+   "id": "gh-jakeschincariol-day-trader-skill",
+   "name": "day-trader-skill",
+   "pitch": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
     "python"
    ],
-   "action": "open https://github.com/Jakeschincariol/trader-skill",
-   "url": "https://github.com/Jakeschincariol/trader-skill",
+   "action": "open https://github.com/Jakeschincariol/day-trader-skill",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
    "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-jamesondh-chimera-vocal-synth",
+   "name": "chimera-vocal-synth",
+   "pitch": "the ultimate vocal synthesizer - sing, speak, beatbox, and more.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "rust"
+   ],
+   "action": "open https://github.com/jamesondh/chimera-vocal-synth",
+   "url": "https://github.com/jamesondh/chimera-vocal-synth",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-janestreet-agent-skills",
+   "name": "agent_skills",
+   "pitch": "Agent skills.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new"
+   ],
+   "action": "open https://github.com/janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-jhaizhou-ops-d2r-mobile",
@@ -12719,6 +12842,21 @@
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "source": "github-search",
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "gh-jhaizhou-ops-s2arm",
+   "name": "S2Arm",
+   "pitch": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "c"
+   ],
+   "action": "open https://github.com/jhaizhou-ops/S2Arm",
+   "url": "https://github.com/jhaizhou-ops/S2Arm",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-jiafeimiao-k-cat-discimagestudio",
@@ -12768,7 +12906,7 @@
   {
    "id": "gh-juneyaooo-rea-video",
    "name": "rea-video",
-   "pitch": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.",
+   "pitch": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。.",
    "category": "devtool",
    "tags": [
     "github",
@@ -12779,21 +12917,6 @@
    "url": "https://github.com/JuneYaooo/rea-video",
    "source": "github-search",
    "first_seen": "2026-11-05"
-  },
-  {
-   "id": "gh-justaresearcher-gpu-unlock-ada",
-   "name": "gpu-unlock-ada",
-   "pitch": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "c"
-   ],
-   "action": "open https://github.com/JustAResearcher/gpu-unlock-ada",
-   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
   },
   {
    "id": "gh-justrach-nanoui",
@@ -12811,64 +12934,34 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "gh-justvugg-colibri",
-   "name": "colibri",
-   "pitch": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "c"
-   ],
-   "action": "open https://github.com/JustVugg/colibri",
-   "url": "https://github.com/JustVugg/colibri",
-   "source": "github-trending",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "gh-karpathy-nanochat",
-   "name": "nanochat",
-   "pitch": "The best ChatGPT that $100 can buy.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "python"
-   ],
-   "action": "open https://github.com/karpathy/nanochat",
-   "url": "https://github.com/karpathy/nanochat",
-   "source": "github-trending",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "gh-killaboi-stealmybitcoin-poc",
-   "name": "StealMyBitcoin-PoC",
-   "pitch": "A public release of the Steal My Bitcoin challenge.",
+   "id": "gh-jwuthri-cloud-tracely-ai",
+   "name": "Tracely-ai",
+   "pitch": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
     "python"
    ],
-   "action": "open https://github.com/KillaBoi/StealMyBitcoin-PoC",
-   "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+   "action": "open https://github.com/jwuthri-cloud/Tracely-ai",
+   "url": "https://github.com/jwuthri-cloud/Tracely-ai",
    "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
-   "id": "gh-kingcharleslzy-ai-dsh-purge",
-   "name": "dsh-purge",
-   "pitch": "dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。.",
+   "id": "gh-kevinraymond-florilegium",
+   "name": "florilegium",
+   "pitch": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, with plants and visitors sampled from genomes and a TikZ library that.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
-    "javascript"
+    "tex"
    ],
-   "action": "open https://github.com/kingcharleslzy-ai/dsh-purge",
-   "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+   "action": "open https://github.com/kevinraymond/florilegium",
+   "url": "https://github.com/kevinraymond/florilegium",
    "source": "github-search",
-   "first_seen": "2026-11-01"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-kitlangton-scrawl",
@@ -12886,21 +12979,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "gh-kividbio-kividb",
-   "name": "kividb",
-   "pitch": "A fast, multi-threaded Redis® and Valkey alternative written in Rust: drop-in compatible, with full-text and vector search built in.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "rust"
-   ],
-   "action": "open https://github.com/kividbio/kividb",
-   "url": "https://github.com/kividbio/kividb",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-kkkkhazix-agent-autoloop",
    "name": "agent-autoloop",
    "pitch": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。.",
@@ -12914,21 +12992,6 @@
    "url": "https://github.com/KKKKhazix/agent-autoloop",
    "source": "github-search",
    "first_seen": "2026-11-04"
-  },
-  {
-   "id": "gh-kota-zo-myspoti",
-   "name": "myspoti",
-   "pitch": "Native Android client for Spotify, built with Jetpack Compose.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "kotlin"
-   ],
-   "action": "open https://github.com/kota-zo/myspoti",
-   "url": "https://github.com/kota-zo/myspoti",
-   "source": "github-search",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "gh-l0ng-ai-openidea",
@@ -12946,21 +13009,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "gh-leolobato-playden-ps5",
-   "name": "playden-ps5",
-   "pitch": "Play your Steam library's Windows games on a jailbroken PS5.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "c"
-   ],
-   "action": "open https://github.com/leolobato/playden-ps5",
-   "url": "https://github.com/leolobato/playden-ps5",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-leonxlnx-earshot",
    "name": "earshot",
    "pitch": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
@@ -12974,6 +13022,36 @@
    "url": "https://github.com/Leonxlnx/earshot",
    "source": "github-search",
    "first_seen": "2026-11-03"
+  },
+  {
+   "id": "gh-leviidev-henge",
+   "name": "Henge",
+   "pitch": "Emulate macOS on iOS and iPadOS.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "c"
+   ],
+   "action": "open https://github.com/Leviidev/Henge",
+   "url": "https://github.com/Leviidev/Henge",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-lexifina-global-law",
+   "name": "global-law",
+   "pitch": "The world's law in git: any provision, any country, any date, and the law that wrote each word.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "html"
+   ],
+   "action": "open https://github.com/lexifina/global-law",
+   "url": "https://github.com/lexifina/global-law",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-libracoder-kiri",
@@ -13021,65 +13099,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-lonewolf0622-helixsr",
-   "name": "HelixSR",
-   "pitch": "Drop-in FSR 3.1 upscaler for Direct3D 12 that runs DLSS's network (Model E) on AMD GPUs.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new"
-   ],
-   "action": "open https://github.com/lonewolf0622/HelixSR",
-   "url": "https://github.com/lonewolf0622/HelixSR",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "gh-longbridge-nsh",
-   "name": "nsh",
-   "pitch": "Native Shell is a native UI framework for iOS, Android, macOS, Windows, Linux and the web, built in Rust.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "rust"
-   ],
-   "action": "brew install nsh",
-   "url": "https://github.com/longbridge/nsh",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "gh-ly05010419-macnativegames",
-   "name": "MacNativeGames",
-   "pitch": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "c"
-   ],
-   "action": "open https://github.com/ly05010419/MacNativeGames",
-   "url": "https://github.com/ly05010419/MacNativeGames",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "gh-lyramakesmusic-neuron-explorer",
-   "name": "neuron-explorer",
-   "pitch": "Steering-first neuron explorer for Qwen3.5-4B: push every MLP neuron, keep every rollout, browse the results.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "python"
-   ],
-   "action": "open https://github.com/lyramakesmusic/neuron-explorer",
-   "url": "https://github.com/lyramakesmusic/neuron-explorer",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "gh-lz4-lz4",
    "name": "lz4",
    "pitch": "Extremely Fast Compression algorithm.",
@@ -13093,6 +13112,21 @@
    "url": "https://github.com/lz4/lz4",
    "source": "github-trending",
    "first_seen": "2026-11-05"
+  },
+  {
+   "id": "gh-man15h-tellyscope",
+   "name": "tellyscope",
+   "pitch": "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. Just 3 MB, no tracking, no root, no PC.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "kotlin"
+   ],
+   "action": "open https://github.com/man15h/tellyscope",
+   "url": "https://github.com/man15h/tellyscope",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-marclou-mailcheap",
@@ -13123,21 +13157,6 @@
    "url": "https://github.com/MaryCache/imozuru",
    "source": "github-search",
    "first_seen": "2026-11-05"
-  },
-  {
-   "id": "gh-max-sixty-worktrunk",
-   "name": "worktrunk",
-   "pitch": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "rust"
-   ],
-   "action": "open https://github.com/max-sixty/worktrunk",
-   "url": "https://github.com/max-sixty/worktrunk",
-   "source": "github-trending",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "gh-mbillow-localthings",
@@ -13275,6 +13294,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "gh-mistralai-timestral",
+   "name": "timestral",
+   "pitch": "Repository for Timestral, the time-series foundation model by Mistral AI.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/mistralai/timestral",
+   "url": "https://github.com/mistralai/timestral",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-mmparko-dsh-purge",
    "name": "dsh-purge",
    "pitch": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) , 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。.",
@@ -13290,34 +13324,19 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "gh-modelflare-ai-anymodelbot",
-   "name": "AnyModelBot",
-   "pitch": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok.",
+   "id": "gh-morganlinton-beautifulrust",
+   "name": "BeautifulRust",
+   "pitch": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
     "python"
    ],
-   "action": "open https://github.com/modelflare-ai/AnyModelBot",
-   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "action": "open https://github.com/morganlinton/BeautifulRust",
+   "url": "https://github.com/morganlinton/BeautifulRust",
    "source": "github-search",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "gh-morluto-awesome-reverse-engineering",
-   "name": "awesome-reverse-engineering",
-   "pitch": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "python"
-   ],
-   "action": "open https://github.com/morluto/awesome-reverse-engineering",
-   "url": "https://github.com/morluto/awesome-reverse-engineering",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-motionsites-ai-claude-skill",
@@ -13380,35 +13399,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-nabilrfg12-reverse-engineer-anything",
-   "name": "Reverse-Engineer-anything",
-   "pitch": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new"
-   ],
-   "action": "open https://github.com/NabilRFG12/Reverse-Engineer-anything",
-   "url": "https://github.com/NabilRFG12/Reverse-Engineer-anything",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "gh-nateherkai-roast-room",
-   "name": "roast-room",
-   "pitch": "Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wickman, Buffett) debate your business decision in Claude Code.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "javascript"
-   ],
-   "action": "open https://github.com/nateherkai/roast-room",
-   "url": "https://github.com/nateherkai/roast-room",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "gh-net-merge-net-merge",
    "name": "net-merge",
    "pitch": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile.",
@@ -13424,34 +13414,19 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "gh-nevertoday-xiaoxiaodong-vps",
-   "name": "xiaoxiaodong-vps",
-   "pitch": "小小东 VPS：3x-ui、Xray、OpenClash、Shadowrocket、CLIProxyAPI 与自动升级部署蓝图.",
+   "id": "gh-niiiiikiiiiii-mclife-desk",
+   "name": "McLife-Desk",
+   "pitch": "忙碌了一天，回到家，你打开麦当劳，却突然纠结：今天吃了什么？这周点了几次？这个月花了多少钱？热量会不会超标？ 于是有了 **McLife Desk.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
-    "mdx"
+    "html"
    ],
-   "action": "open https://github.com/nevertoday/xiaoxiaodong-vps",
-   "url": "https://github.com/nevertoday/xiaoxiaodong-vps",
+   "action": "open https://github.com/Niiiiikiiiiii/McLife-Desk",
+   "url": "https://github.com/Niiiiikiiiiii/McLife-Desk",
    "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "gh-niazmorshed2007-reanimate",
-   "name": "reanimate",
-   "pitch": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "javascript"
-   ],
-   "action": "open https://github.com/NiazMorshed2007/reanimate",
-   "url": "https://github.com/NiazMorshed2007/reanimate",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-noniv-web-ocean",
@@ -13527,6 +13502,21 @@
    "url": "https://github.com/NVIDIA/auto-ontology",
    "source": "github-trending",
    "first_seen": "2026-11-04"
+  },
+  {
+   "id": "gh-oinkvm-oink",
+   "name": "oink",
+   "pitch": "Your computers, working as one. Share keyboard, mouse, trackpad, clipboard, drag and drop and audio across Macs and PCs.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "rust"
+   ],
+   "action": "open https://github.com/oinkvm/oink",
+   "url": "https://github.com/oinkvm/oink",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-onehumanbeing-esp32-iphone-agent",
@@ -13619,21 +13609,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "gh-oscar-soirey-raven",
-   "name": "Raven",
-   "pitch": "A lightweight, multithreaded GUI library in C for editors and tools. For C, Rust, C++, C#, Java, Python, Zig, Lua, Go, Odin, C3.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "c"
-   ],
-   "action": "open https://github.com/oscar-soirey/Raven",
-   "url": "https://github.com/oscar-soirey/Raven",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-overkilllabs3-driveclub-recomp",
    "name": "driveclub-recomp",
    "pitch": "DriveClub (PS4, version 1.28) running natively on Windows.",
@@ -13649,49 +13624,19 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "gh-p-e-w-heretic",
-   "name": "heretic",
-   "pitch": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "python"
-   ],
-   "action": "open https://github.com/p-e-w/heretic",
-   "url": "https://github.com/p-e-w/heretic",
-   "source": "github-trending",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "gh-paperclipai-paperclip",
-   "name": "paperclip",
-   "pitch": "The open-source app everyone uses to manage agents at work.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "typescript"
-   ],
-   "action": "open https://github.com/paperclipai/paperclip",
-   "url": "https://github.com/paperclipai/paperclip",
-   "source": "github-trending",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "gh-patch-gg-pixelfx",
-   "name": "pixelfx",
-   "pitch": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "id": "gh-paipiange-nvzhuang",
+   "name": "nvzhuang",
+   "pitch": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
-    "javascript"
+    "go"
    ],
-   "action": "open https://github.com/patch-gg/pixelfx",
-   "url": "https://github.com/patch-gg/pixelfx",
+   "action": "open https://github.com/paipiange/nvzhuang",
+   "url": "https://github.com/paipiange/nvzhuang",
    "source": "github-search",
-   "first_seen": "2026-11-01"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-pengchujin-aerial-tv",
@@ -13709,21 +13654,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-physicsdolphin-nv-uefi-unlocker",
-   "name": "nv-uefi-unlocker",
-   "pitch": "UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -> FWSEC/WPR2 -> signed.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "rust"
-   ],
-   "action": "open https://github.com/physicsdolphin/nv-uefi-unlocker",
-   "url": "https://github.com/physicsdolphin/nv-uefi-unlocker",
-   "source": "github-search",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "gh-pika-labs-pika-h3-flex",
    "name": "Pika-H3-Flex",
    "pitch": "Pika H3 Flex: video and audio generation inference.",
@@ -13739,21 +13669,6 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "gh-pomerado-pomerado",
-   "name": "pomerado",
-   "pitch": "YC F26. Turn any website into an API / MCP in minutes. Open source core integration minting harness. MIT.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "typescript"
-   ],
-   "action": "open https://github.com/Pomerado/pomerado",
-   "url": "https://github.com/Pomerado/pomerado",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-prometheus-prometheus",
    "name": "prometheus",
    "pitch": "The Prometheus monitoring system and time series database.",
@@ -13767,21 +13682,6 @@
    "url": "https://github.com/prometheus/prometheus",
    "source": "github-trending",
    "first_seen": "2026-11-06"
-  },
-  {
-   "id": "gh-qaqleonard-a7c2-fl23-research",
-   "name": "a7c2-fl23-research",
-   "pitch": "Desktop tool for Sony A7C II (ILCE-7CM2) firmware 2.01: one-click FL2/FL3, custom Creative Looks (LUT/DCP), electronic shutter sound.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "python"
-   ],
-   "action": "open https://github.com/QAQLeonard/a7c2-fl23-research",
-   "url": "https://github.com/QAQLeonard/a7c2-fl23-research",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
   },
   {
    "id": "gh-qaqleonard-a7c2-tools",
@@ -13859,21 +13759,6 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "gh-rddmwmddr-android-ad-cleaner",
-   "name": "android-ad-cleaner",
-   "pitch": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "python"
-   ],
-   "action": "open https://github.com/rddmwmddr/android-ad-cleaner",
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "gh-reacher-z-awesome-rea",
    "name": "Awesome-REA",
    "pitch": "Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed.",
@@ -13917,6 +13802,21 @@
    "url": "https://github.com/reason-machines/reason-network",
    "source": "github-search",
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "gh-revivedx-savagewindrecomp",
+   "name": "SavageWindRecomp",
+   "pitch": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "c"
+   ],
+   "action": "open https://github.com/Revivedx/SavageWindRecomp",
+   "url": "https://github.com/Revivedx/SavageWindRecomp",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-rikiyat-lm-understand-logs",
@@ -13964,21 +13864,6 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "gh-ruoji6-artex",
-   "name": "ARTEX",
-   "pitch": "Autumn-27/ARTEX 持续维护开源版本.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "go"
-   ],
-   "action": "open https://github.com/RuoJi6/ARTEX",
-   "url": "https://github.com/RuoJi6/ARTEX",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-rust-lang-rust",
    "name": "rust",
    "pitch": "Empowering everyone to build reliable and efficient software.",
@@ -13994,9 +13879,24 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "gh-ruvnet-ruview",
+   "name": "RuView",
+   "pitch": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "trending",
+    "rust"
+   ],
+   "action": "open https://github.com/ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "source": "github-trending",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-s1dashu-quiet-md",
    "name": "quiet-md",
-   "pitch": "Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML.",
+   "pitch": "Blazing-fast native notes app and rich-text editor for macOS, Windows, and Linux. Built with Rust + GPUI. Local-first and beautifully.",
    "category": "devtool",
    "tags": [
     "github",
@@ -14099,6 +13999,21 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "gh-shanselman-gputaskman",
+   "name": "gputaskman",
+   "pitch": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/shanselman/gputaskman",
+   "url": "https://github.com/shanselman/gputaskman",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-shaongitbd-doory",
    "name": "doory",
    "pitch": "Open source canva alternative.",
@@ -14127,6 +14042,21 @@
    "url": "https://github.com/sherlock-project/sherlock",
    "source": "github-trending",
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "gh-shinyobjectz-raea",
+   "name": "raea",
+   "pitch": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU..",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "rust"
+   ],
+   "action": "open https://github.com/shinyobjectz/raea",
+   "url": "https://github.com/shinyobjectz/raea",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-shirai91-nx2android",
@@ -14174,6 +14104,21 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "gh-snapintosh-snapintosh",
+   "name": "Snapintosh",
+   "pitch": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/Snapintosh/Snapintosh",
+   "url": "https://github.com/Snapintosh/Snapintosh",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-snuri00-ps2-web-recomp",
    "name": "ps2-web-recomp",
    "pitch": "PS2 games in the browser: static recompilation to WebAssembly with a native runtime.",
@@ -14187,6 +14132,21 @@
    "url": "https://github.com/snuri00/ps2-web-recomp",
    "source": "github-search",
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "gh-sostenesfreitas-ocarina-recomp",
+   "name": "ocarina-recomp",
+   "pitch": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "c"
+   ],
+   "action": "open https://github.com/sostenesfreitas/ocarina-recomp",
+   "url": "https://github.com/sostenesfreitas/ocarina-recomp",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-speridlabs-idol-sdk",
@@ -14204,34 +14164,34 @@
    "first_seen": "2026-11-07"
   },
   {
-   "id": "gh-spotify-portal-ai-plugins",
-   "name": "portal-ai-plugins",
-   "pitch": "Trending on GitHub today, spotify/portal-ai-plugins.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "typescript"
-   ],
-   "action": "open https://github.com/spotify/portal-ai-plugins",
-   "url": "https://github.com/spotify/portal-ai-plugins",
-   "source": "github-trending",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "gh-storytold-craft-anything",
-   "name": "craft-anything",
-   "pitch": "Craft Anything: understand how any software works, and craft your own.",
+   "id": "gh-sqlpxc-airhand",
+   "name": "airhand",
+   "pitch": "High-performance, low-latency remote desktop QUIC transport · hardware encoding and decoding · up to 120 fps Windows · macOS · Linux ·.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
     "rust"
    ],
-   "action": "open https://github.com/storytold/craft-anything",
-   "url": "https://github.com/storytold/craft-anything",
+   "action": "open https://github.com/sqlpxc/airhand",
+   "url": "https://github.com/sqlpxc/airhand",
    "source": "github-search",
-   "first_seen": "2026-11-02"
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-stackedlol-ascii-sharks",
+   "name": "ascii-sharks",
+   "pitch": "ascii shark components in typescript.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "typescript"
+   ],
+   "action": "open https://github.com/stackedlol/ascii-sharks",
+   "url": "https://github.com/stackedlol/ascii-sharks",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-storytold-craft-launcher",
@@ -14264,34 +14224,19 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-storytold-wordcraft",
-   "name": "wordcraft",
-   "pitch": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust.",
+   "id": "gh-supermedo-uncharted-pc",
+   "name": "uncharted_pc",
+   "pitch": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo.",
    "category": "devtool",
    "tags": [
     "github",
     "new",
-    "rust"
+    "c"
    ],
-   "action": "open https://github.com/storytold/wordcraft",
-   "url": "https://github.com/storytold/wordcraft",
+   "action": "open https://github.com/Supermedo/uncharted_pc",
+   "url": "https://github.com/Supermedo/uncharted_pc",
    "source": "github-search",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "gh-syenzzz-mcd-coupon-strategist",
-   "name": "mcd-coupon-strategist",
-   "pitch": "麦麦省钱助手 ,, 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "python"
-   ],
-   "action": "open https://github.com/Syenzzz/mcd-coupon-strategist",
-   "url": "https://github.com/Syenzzz/mcd-coupon-strategist",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-symfony-symfony",
@@ -14369,6 +14314,36 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "gh-th0mk-nfsu2-web",
+   "name": "nfsu2-web",
+   "pitch": "Archived: development continues privately. Need for Speed: Underground 2 in the browser, nfsu2.xyz.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "c"
+   ],
+   "action": "open https://github.com/th0mk/nfsu2-web",
+   "url": "https://github.com/th0mk/nfsu2-web",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-th0rgal-satmux",
+   "name": "satmux",
+   "pitch": "Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies).",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/Th0rgal/satmux",
+   "url": "https://github.com/Th0rgal/satmux",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-the-pr-agent-pr-agent",
    "name": "pr-agent",
    "pitch": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
@@ -14414,21 +14389,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "gh-thtbee-nectarlink",
-   "name": "nectarlink",
-   "pitch": "Your Android phone and your Windows PC, working as one. Local-first, end-to-end encrypted, no account.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "rust"
-   ],
-   "action": "open https://github.com/thtbee/nectarlink",
-   "url": "https://github.com/thtbee/nectarlink",
-   "source": "github-search",
-   "first_seen": "2026-11-02"
-  },
-  {
    "id": "gh-thysrael-horizon",
    "name": "Horizon",
    "pitch": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达.",
@@ -14442,35 +14402,6 @@
    "url": "https://github.com/Thysrael/Horizon",
    "source": "github-trending",
    "first_seen": "2026-11-04"
-  },
-  {
-   "id": "gh-toicf-cf-workers-tgproxy",
-   "name": "CF-Workers-TGProxy",
-   "pitch": "基于 Cloudflare Workers 的 Telegram Web/MTProto WebSocket 代理中继，支持 bridge 鉴权、bootstrap/session 令牌、多 lane WS 复用、AES-CTR 加密、自定义帧、流控与严格 CSP。.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new"
-   ],
-   "action": "open https://github.com/ToiCF/CF-Workers-TGProxy",
-   "url": "https://github.com/ToiCF/CF-Workers-TGProxy",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "gh-tonf1917-claude-desktop-multiple-windows-different-api",
-   "name": "claude-desktop-multiple-windows-different-api",
-   "pitch": "Multiple windows for Claude Desktop with different APIs at the same time: keep your official Claude subscription in one window and run.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "python"
-   ],
-   "action": "open https://github.com/TonF1917/claude-desktop-multiple-windows-different-api",
-   "url": "https://github.com/TonF1917/claude-desktop-multiple-windows-different-api",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
   },
   {
    "id": "gh-toyxyz-toyxyz-rgbmocap",
@@ -14488,21 +14419,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "gh-udhaykumarbala-cleanyourtv-app",
-   "name": "cleanyourtv-app",
-   "pitch": "A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "kotlin"
-   ],
-   "action": "open https://github.com/udhaykumarbala/cleanyourtv-app",
-   "url": "https://github.com/udhaykumarbala/cleanyourtv-app",
-   "source": "github-search",
-   "first_seen": "2026-11-03"
-  },
-  {
    "id": "gh-uncensoredlabs-uncensored-ai-api",
    "name": "uncensored-ai-api",
    "pitch": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
@@ -14518,21 +14434,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "gh-underleveledbuilder-awesome-short-drama-skills",
-   "name": "awesome-short-drama-skills",
-   "pitch": "AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "new",
-    "html"
-   ],
-   "action": "open https://github.com/UnderleveledBuilder/awesome-short-drama-skills",
-   "url": "https://github.com/UnderleveledBuilder/awesome-short-drama-skills",
-   "source": "github-search",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "gh-unixnu-unixnu",
    "name": "UniXNU",
    "pitch": "Run iOS and macOS on non-Apple ARM64 hardware through UEFI.",
@@ -14546,21 +14447,6 @@
    "url": "https://github.com/UniXNU/UniXNU",
    "source": "github-search",
    "first_seen": "2026-11-08"
-  },
-  {
-   "id": "gh-usagi-org-ai-goofish-monitor",
-   "name": "ai-goofish-monitor",
-   "pitch": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "python"
-   ],
-   "action": "open https://github.com/Usagi-org/ai-goofish-monitor",
-   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-   "source": "github-trending",
-   "first_seen": "2026-11-03"
   },
   {
    "id": "gh-valentderah-totk-pc-recomp",
@@ -14591,21 +14477,6 @@
    "url": "https://github.com/vercel-labs/agent-browser",
    "source": "github-trending",
    "first_seen": "2026-11-05"
-  },
-  {
-   "id": "gh-vercel-labs-agent-desktop",
-   "name": "agent-desktop",
-   "pitch": "Computer use CLI for AI agents.",
-   "category": "devtool",
-   "tags": [
-    "github",
-    "trending",
-    "rust"
-   ],
-   "action": "open https://github.com/vercel-labs/agent-desktop",
-   "url": "https://github.com/vercel-labs/agent-desktop",
-   "source": "github-trending",
-   "first_seen": "2026-11-02"
   },
   {
    "id": "gh-verlintas-noir",
@@ -14652,6 +14523,36 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "gh-wangzan101-mika",
+   "name": "Mika",
+   "pitch": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "kotlin"
+   ],
+   "action": "open https://github.com/wangzan101/Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "gh-wesbos-3d-model-anything",
+   "name": "3d-model-anything",
+   "pitch": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "swift"
+   ],
+   "action": "open https://github.com/wesbos/3d-model-anything",
+   "url": "https://github.com/wesbos/3d-model-anything",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-wesbos-photo-frame-dashboard",
    "name": "photo-frame-dashboard",
    "pitch": "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME).",
@@ -14682,6 +14583,21 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "gh-windows-gpu-unlock-windows-gpu-unlock",
+   "name": "Windows-GPU-UNLOCK",
+   "pitch": "Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "c"
+   ],
+   "action": "open https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+   "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-worldonlyu-google-ai-pro-2year-zerocost-auto",
    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
    "pitch": "Google_AI_Pro_2Year_ZeroCost_Auto.",
@@ -14695,6 +14611,21 @@
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "source": "github-search",
    "first_seen": "2026-11-05"
+  },
+  {
+   "id": "gh-woyun520-gif-factory",
+   "name": "gif-factory",
+   "pitch": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/WoYun520/gif-factory",
+   "url": "https://github.com/WoYun520/gif-factory",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-wquguru-cicada",
@@ -14712,6 +14643,21 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "gh-xevrion-hatchzip",
+   "name": "hatchzip",
+   "pitch": "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "rust"
+   ],
+   "action": "open https://github.com/xevrion/hatchzip",
+   "url": "https://github.com/xevrion/hatchzip",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-xiaoyang111222-cn-math-taxonomy",
    "name": "cn-math-taxonomy",
    "pitch": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。.",
@@ -14725,6 +14671,20 @@
    "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
    "source": "github-search",
    "first_seen": "2026-11-05"
+  },
+  {
+   "id": "gh-xscreensaver-official-xscreensaver",
+   "name": "xscreensaver",
+   "pitch": "There is no official XScreenSaver GitHub repository.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new"
+   ],
+   "action": "open https://github.com/xscreensaver-official/xscreensaver",
+   "url": "https://github.com/xscreensaver-official/xscreensaver",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-yeqv111-mccarbon",
@@ -14757,6 +14717,21 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "gh-yoursjeyo-claude-switcher",
+   "name": "claude-switcher",
+   "pitch": "Fail-Closed 账号环境管理器:11项环境指纹审计(Block-on-Fail)、手写STUN协议栈的WebRTC泄漏探针、Kill-Switch断网急停、多账号快照隔离、配置漂移自愈 ,, 让真实IP在物理上无法泄漏.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "python"
+   ],
+   "action": "open https://github.com/YOURSJEYO/claude-switcher",
+   "url": "https://github.com/YOURSJEYO/claude-switcher",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "gh-yzlin286-wq-deepscient",
    "name": "Deepscient",
    "pitch": "让 AI 与人类一起攻克真正的科学难题 ,, 12 阶段 55 门 · 36 工具 · 98 条技能 · 证据链与可复现.",
@@ -14770,6 +14745,21 @@
    "url": "https://github.com/yzlin286-wq/Deepscient",
    "source": "github-search",
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "gh-zagitta-gpu-unlock",
+   "name": "gpu-unlock",
+   "pitch": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "new",
+    "c"
+   ],
+   "action": "open https://github.com/Zagitta/gpu-unlock",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "source": "github-search",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-zcbacxc-mcd-party-planner",
@@ -14815,6 +14805,21 @@
    "url": "https://github.com/Zfinix/eleven",
    "source": "github-search",
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "gh-zhulinsen-daily-stock-analysis",
+   "name": "daily_stock_analysis",
+   "pitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with.",
+   "category": "devtool",
+   "tags": [
+    "github",
+    "trending",
+    "python"
+   ],
+   "action": "open https://github.com/ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "source": "github-trending",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "gh-zhuyansen-new-term-radar",
@@ -15238,7 +15243,7 @@
   },
   {
    "id": "tf-5JGCZpxt",
-   "name": "Anvil AI: Personal Assistant",
+   "name": "Anvil: Private & Offline AI",
    "pitch": "Anvil is a private AI assistant for iPhone.",
    "category": "testflight",
    "tags": [
@@ -15280,6 +15285,21 @@
    "url": "https://testflight.apple.com/join/5MqUeG59",
    "source": "awesome-testflight-link",
    "first_seen": "2026-08-30"
+  },
+  {
+   "id": "tf-5heMqF9p",
+   "name": "ReadStreak",
+   "pitch": "ReadStreak helps readers build a consistent reading habit with streaks, reading goals, book tracking, timers, stats, achievements, and.",
+   "category": "testflight",
+   "tags": [
+    "testflight",
+    "ios",
+    "beta"
+   ],
+   "action": "open https://testflight.apple.com/join/5heMqF9p",
+   "url": "https://testflight.apple.com/join/5heMqF9p",
+   "source": "awesome-testflight-link",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "tf-5hmQk6ba",
@@ -16150,6 +16170,21 @@
    "url": "https://testflight.apple.com/join/Dtc4ZCFu",
    "source": "awesome-testflight-link",
    "first_seen": "2026-08-30"
+  },
+  {
+   "id": "tf-E5CPuP4X",
+   "name": "Mochi Pack: Packing List",
+   "pitch": "Mochi Pack writes a packing list for your exact trip: stops, dates, weather, travelers and plans.",
+   "category": "testflight",
+   "tags": [
+    "testflight",
+    "ios",
+    "beta"
+   ],
+   "action": "open https://testflight.apple.com/join/E5CPuP4X",
+   "url": "https://testflight.apple.com/join/E5CPuP4X",
+   "source": "awesome-testflight-link",
+   "first_seen": "2026-11-09"
   },
   {
    "id": "tf-E7AnyPlA",
